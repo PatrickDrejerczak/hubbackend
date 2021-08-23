@@ -2,7 +2,7 @@ const utilsHelper = require("../helpers/utils.helper");
 const Ticket = require("../models/Ticket");
 const ticketController = {};
 
-receiverController.getAllTickets = async (req, res, next) => {
+ticketController.getAllTickets = async (req, res, next) => {
   try {
     let ticket = Ticket;
     const response = utilsHelper.sendResponse(
