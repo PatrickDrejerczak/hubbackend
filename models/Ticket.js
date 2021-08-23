@@ -21,22 +21,27 @@ const ticketSchema = Schema(
       },
     },
 
-    itemName: String,
-    enum: {
-      values: [
-        "rice",
-        "eggs",
-        "noodles",
-        "veggies",
-        "children clothes",
-        "mask",
-        "fish",
-        "protective gear",
-        "adult clothes",
-        "meat",
-      ],
-    },
-    quantity: Number,
+    items: [
+      {
+        name: {
+          type: String,
+          require: true,
+          enum: [
+            "rice",
+            "eggs",
+            "noodles",
+            "veggies",
+            "children clothes",
+            "mask",
+            "fish",
+            "protective gear",
+            "adult clothes",
+            "meat",
+          ],
+        },
+        quantity: { type: Number, default: 0 },
+      },
+    ],
   },
 
   {
