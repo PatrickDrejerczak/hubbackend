@@ -44,8 +44,10 @@ MongoClient.connect(url, function (err, db) {
       name: faker.name.findName(),
       address: address[Math.floor(Math.random() * 17)],
       ticketType: statusArray[Math.floor(Math.random() * 3)],
-      itemName: itemName[Math.floor(Math.random() * 10)],
-      quantity: Math.floor(Math.random() * 99),
+      items: {
+        itemName: itemName[Math.floor(Math.random() * 10)],
+        quantity: Math.floor(Math.random() * 99),
+      },
     };
     dbo.collection("charity").insertOne(fakeTicket, function (err, res) {
       if (err) throw err;
