@@ -54,6 +54,7 @@ MongoClient.connect(url, function (err, db) {
       ticketType: typeArray[Math.floor(Math.random() * 2)],
       status: statusArray[Math.floor(Math.random() * 3)],
       items: fakeitems
+
     };
     dbo.collection("charity").insertOne(fakeTicket, function (err, res) {
       if (err) throw err;
