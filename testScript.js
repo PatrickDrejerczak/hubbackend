@@ -53,6 +53,7 @@ MongoClient.connect(url, function (err, db) {
       address: address[Math.floor(Math.random() * 17)],
       ticketType: typeArray[Math.floor(Math.random() * 2)],
       status: statusArray[Math.floor(Math.random() * 3)],
+      weeksAgo: Math.floor(Math.random() * 4),
       items: fakeitems,
     };
     dbo.collection("charity").insertOne(fakeTicket, function (err, res) {

@@ -21,6 +21,8 @@ const ticketSchema = Schema(
       },
     },
 
+    timeAgo: Number,
+
     items: [
       {
         itemName: {
