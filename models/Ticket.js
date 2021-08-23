@@ -23,7 +23,7 @@ const ticketSchema = Schema(
 
     items: [
       {
-        name: {
+        itemName: {
           type: String,
           require: true,
           enum: [
