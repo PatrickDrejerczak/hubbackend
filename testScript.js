@@ -39,15 +39,25 @@ const address = [
 MongoClient.connect(url, function (err, db) {
   if (err) throw err;
   var dbo = db.db("mydb");
-  for (let i = 0; i < 20; i++) {
+  for (let i = 0; i < 1000; i++) {
     var fakeTicket = {
       name: faker.name.findName(),
       address: address[Math.floor(Math.random() * 17)],
       ticketType: statusArray[Math.floor(Math.random() * 3)],
-      items: {
-        itemName: itemName[Math.floor(Math.random() * 10)],
-        quantity: Math.floor(Math.random() * 99),
-      },
+      items: [
+        {
+          itemName: itemName[Math.floor(Math.random() * 10)],
+          quantity: Math.floor(Math.random() * 99),
+        },
+        {
+          itemName: itemName[Math.floor(Math.random() * 10)],
+          quantity: Math.floor(Math.random() * 99),
+        },
+        {
+          itemName: itemName[Math.floor(Math.random() * 10)],
+          quantity: Math.floor(Math.random() * 99),
+        },
+      ],
     };
     dbo.collection("charity").insertOne(fakeTicket, function (err, res) {
       if (err) throw err;
