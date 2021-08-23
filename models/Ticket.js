@@ -21,7 +21,21 @@ const ticketSchema = Schema(
       },
     },
 
-    items: [{ ref: "Item", type: Schema.ObjectId }],
+    itemName: String,
+    enum: {
+      values: [
+        "rice",
+        "eggs",
+        "noodles",
+        "veggies",
+        "children clothes",
+        "mask",
+        "fish",
+        "protective gear",
+        "adult clothes",
+        "meat",
+      ],
+    },
     quantity: Number,
   },
 
