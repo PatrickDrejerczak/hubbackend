@@ -2,7 +2,8 @@ const faker = require("faker");
 var MongoClient = require("mongodb").MongoClient;
 var url = "mongodb://localhost:27017/charityHub";
 
-const statusArray = ["done", "pending", "notStarted"];
+const statusArray = ["pending", "notStarted", "complete"];
+const typeArray = ["receive", "donate"]
 const itemName = [
   "rice",
   "eggs",
@@ -36,18 +37,23 @@ const address = [
   "Nha Be",
 ];
 
+
+
 MongoClient.connect(url, function (err, db) {
   if (err) throw err;
   var dbo = db.db("mydb");
   for (let i = 0; i < 20; i++) {
+    let fakeitems = []
+    for (let x = 0; x < Math.ceil(Math.random()*10); x++) {
+      fakeitems[x] = {itemName: itemName[Math.floor(Math.random() * 10)],
+        quantity: Math.ceil(Math.random() * 100)}
+    }
     var fakeTicket = {
       name: faker.name.findName(),
       address: address[Math.floor(Math.random() * 17)],
-      ticketType: statusArray[Math.floor(Math.random() * 3)],
-      items: {
-        itemName: itemName[Math.floor(Math.random() * 10)],
-        quantity: Math.floor(Math.random() * 99),
-      },
+      ticketType: typeArray[Math.floor(Math.random() * 2)],
+      status: statusArray[Math.floor(Math.random() * 3)],
+      items: fakeitems
     };
     dbo.collection("charity").insertOne(fakeTicket, function (err, res) {
       if (err) throw err;
