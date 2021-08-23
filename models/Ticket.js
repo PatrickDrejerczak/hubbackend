@@ -22,7 +22,9 @@ const ticketSchema = Schema(
     },
 
     items: [{ ref: "Item", type: Schema.ObjectId }],
+    quantity: Number,
   },
+
   {
     timestamps: true,
   }

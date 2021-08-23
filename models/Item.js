@@ -18,7 +18,6 @@ const itemSchema = Schema(
         "meat",
       ],
     },
-    quantity: Number,
   },
   {
     timestamps: true,
