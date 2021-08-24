@@ -39,7 +39,7 @@ const address = [
 
 MongoClient.connect(url, function (err, db) {
   if (err) throw err;
-  var dbo = db.db("mydb");
+  var dbo = db.db("charityHub");
   for (let i = 0; i < 1000; i++) {
     let fakeitems = [];
     for (let x = 0; x < Math.ceil(Math.random() * 10); x++) {
@@ -56,7 +56,7 @@ MongoClient.connect(url, function (err, db) {
       weeksAgo: Math.floor(Math.random() * 4),
       items: fakeitems,
     };
-    dbo.collection("charity").insertOne(fakeTicket, function (err, res) {
+    dbo.collection("tickets").insertOne(fakeTicket, function (err, res) {
       if (err) throw err;
       db.close();
     });
