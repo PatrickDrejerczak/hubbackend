@@ -4,7 +4,7 @@ const ticketController = {};
 
 ticketController.getAllTickets = async (req, res, next) => {
   try {
-    let ticket = Ticket;
+    let ticket = await Ticket.find({});
     const response = utilsHelper.sendResponse(
       res,
       200,
