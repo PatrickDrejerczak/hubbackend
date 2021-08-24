@@ -40,7 +40,7 @@ const address = [
 MongoClient.connect(url, function (err, db) {
   if (err) throw err;
   var dbo = db.db("charityHub");
-  for (let i = 0; i < 1000; i++) {
+  for (let i = 0; i < 100; i++) {
     let fakeitems = [];
     for (let x = 0; x < Math.ceil(Math.random() * 10); x++) {
       fakeitems[x] = {
@@ -53,7 +53,7 @@ MongoClient.connect(url, function (err, db) {
       address: address[Math.floor(Math.random() * 17)],
       ticketType: typeArray[Math.floor(Math.random() * 2)],
       status: statusArray[Math.floor(Math.random() * 3)],
-      weeksAgo: Math.floor(Math.random() * 4),
+      weeksAgo: Math.floor(Math.random() * 4), 
       items: fakeitems,
     };
     dbo.collection("tickets").insertOne(fakeTicket, function (err, res) {
