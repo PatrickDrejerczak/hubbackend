@@ -6,29 +6,36 @@ var mongoose = require("mongoose");
 
 chartsController.getDonutChart = async (req, res, next) => {
   try {
-    var id = mongoose.Types.ObjectId("6102a08043bc5e0728a765ca");
+    var id = mongoose.Types.ObjectId("6102a7fe43bc5e0728a76722");
+    // var id = mongoose.Types.ObjectId("6110fe14f743e01e61caefbf");
     // let user = await Users.findOne({ _id: id }).populate("team");
-    let user = await Users.findOne({ _id: id });
-    const posts = await Posts.find({ team: user.team });
 
-    let completedPosts = 0;
-    let pendingPosts = 0;
-    posts.map((post) => {
-      if (post.isApproved) {
-        completedPosts += 1;
-      } else {
-        pendingPosts += 1;
-      }
+    let user = await Users.findOne({ _id: id });
+    let teamId = user.team;
+    const completed = await Posts.find({ team: teamId }).count({
+      isFinished: true,
     });
-    let data = [completedPosts, pendingPosts];
+    const pending = await Posts.find({ team: teamId }).count({
+      isFinished: false,
+    });
+    // let completedPosts = 0;
+    // let pendingPosts = 0;
+    // posts.map((post) => {
+    //   if (post.isApproved == true) {
+    //     completedPosts += 1;
+    //   } else if (post.isApproved == false) {
+    //     pendingPosts += 1;
+    //   }
+    // });
+    // let data = [completedPosts, pendingPosts];
 
     const response = utilsHelper.sendResponse(
       res,
       200,
       true,
-      { data },
+      { completed, pending },
       null,
-      "Get all postss successfully."
+      "Get donut chart successfully."
     );
   } catch (error) {
     next(error);
