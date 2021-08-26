@@ -1,14 +1,16 @@
 const express = require("express");
 const router = express.Router();
-const fakeDataApi = require('./fakeData.api')
-const ticketApi = require('./ticket.api');
-const postApi = require('./post.api');
 
+const ticketApi = require("./ticket.api");
+router.use("/ticket", ticketApi);
 
+const fakeDataApi = require("./fakeData.api");
+router.use("/fakedata", fakeDataApi);
 
-router.use('/fakedata', fakeDataApi)
-router.use('/ticket', ticketApi);
-router.use('/post', postApi);
+const chartsApi = require("./charts.api");
+router.use("/charts", chartsApi);
 
+const postApi = require("./post.api");
+router.use("/post", postApi);
 
 module.exports = router;
