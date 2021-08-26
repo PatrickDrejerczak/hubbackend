@@ -40,7 +40,7 @@ const address = [
 MongoClient.connect(url, function (err, db) {
   if (err) throw err;
   var dbo = db.db("charityHub");
-  for (let i = 0; i < 1000; i++) {
+  for (let i = 0; i < 100; i++) {
     let fakeitems = [];
     for (let x = 0; x < Math.ceil(Math.random() * 10); x++) {
       fakeitems[x] = {
