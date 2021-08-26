@@ -7,7 +7,7 @@ router.use("/ticket", ticketApi);
 const fakeDataApi = require("./fakeData.api");
 router.use("/fakedata", fakeDataApi);
 
-const postsApi = require("./posts.api");
-router.use("/posts", postsApi);
+const chartsApi = require("./charts.api");
+router.use("/charts", chartsApi);
 
 module.exports = router;

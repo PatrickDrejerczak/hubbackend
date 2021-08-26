@@ -1,10 +1,14 @@
 const express = require("express");
 const router = express.Router();
-const postsController = require("../controller/posts.controller");
+const chartsController = require("../controller/charts.controller");
 
-// Get all posts
-router.get("/", postsController.getAllPosts);
+// Get all charts
 
-// Get posts that are completed and it is a request
+// Get all donut charts
+router.get("/donut", chartsController.getDonutChart);
+
+// Get charts that are completed and it is a request
+router;
+// Get Tina Chart
 
 module.exports = router;
