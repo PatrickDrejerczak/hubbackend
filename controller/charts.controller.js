@@ -4,6 +4,8 @@ const Posts = require("../models/Posts");
 const Users = require("../models/Users");
 
 var mongoose = require("mongoose");
+const Items = require("../models/Items");
+const SelectedItem = require("../models/SelectedItem");
 const chartsController = {};
 
 chartsController.getDonutChart = async (req, res, next) => {
@@ -115,9 +117,14 @@ chartsController.getItemChart = async (req, res, next) => {
     const receive = await Posts.find({ team: teamId, type: "receive" })
       .populate({
         path: "items",
-        populate: "ref",
+        populate: [{ path: "selected" }],
       })
       .limit(10);
+
+    const itemObjId = receive.items;
+    var itemId = mongoose.Types.ObjectId("611e454cfadd5e47792f719b");
+
+    const item = await SelectedItem.find({ _id: itemId });
 
     // const receive1 = await Posts.findOne({
     //   team: teamId,
