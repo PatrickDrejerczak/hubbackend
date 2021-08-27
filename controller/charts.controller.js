@@ -6,7 +6,7 @@ var mongoose = require("mongoose");
 
 chartsController.getDonutChart = async (req, res, next) => {
   try {
-    var id = mongoose.Types.ObjectId("6102a08043bc5e0728a765ca");
+    var id = mongoose.Types.ObjectId("6102a7fe43bc5e0728a76722");
     // let user = await Users.findOne({ _id: id }).populate("team");
     let user = await Users.findOne({ _id: id });
     const posts = await Posts.find({ team: user.team });
@@ -14,7 +14,7 @@ chartsController.getDonutChart = async (req, res, next) => {
     let completedPosts = 0;
     let pendingPosts = 0;
     posts.map((post) => {
-      if (post.isApproved) {
+      if (post.isFinished == true) {
         completedPosts += 1;
       } else {
         pendingPosts += 1;
