@@ -59,8 +59,8 @@ chartsController.getBarChart = async (req, res, next) => {
             $gte: new Date(new Date().getTime() - 7 * 24 * 60 * 60 * 1000),
           },
         })
-          .sort({ createdAt: -1 })
-          .countDocuments();
+          .sort({ createdAt: 1 })
+          .count();
       } else if (weekAgo > 1) {
         result = await Posts.find({
           team: teamId,
@@ -74,19 +74,21 @@ chartsController.getBarChart = async (req, res, next) => {
             ),
           },
         })
-          .sort({ createdAt: -1 })
-          .countDocuments();
+          .sort({ createdAt: 1 })
+          .count();
       }
       return result;
     };
-    let numberofweeks = 10;
+    let numberofweeks = 4;
 
-    const receive = [];
-    const send = [];
-    for (let index = 1; index <= numberofweeks; index++) {
-      receive[index] = await getWeeklyPosts(index, "receive");
-      send[index] = await getWeeklyPosts(index, "send");
+    const reversedReceive = [];
+    const reversedSend = [];
+    for (let index = 0; index < numberofweeks; index++) {
+      reversedReceive[index] = await getWeeklyPosts(index + 1, "receive");
+      reversedSend[index] = await getWeeklyPosts(index + 1, "send");
     }
+    const receive = reversedReceive.reverse();
+    const send = reversedSend.reverse();
 
     const response = utilsHelper.sendResponse(
       res,
