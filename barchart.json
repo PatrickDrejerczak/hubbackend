@@ -1,0 +1,3779 @@
+{
+    "success": true,
+    "data": {
+        "1": [
+            {
+                "_id": "61272b6aacfddf10cac51de5",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Vân",
+                "note": "Gia đình bạn được tỏi dân phố hỗ trợ một ít thức ăn nên m đã tặng bé 1 hộp sữa",
+                "phoneNumber": "0988262588",
+                "items": [
+                    {
+                        "_id": "61272b6aacfddf10cac51de7",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61272b6aacfddf10cac51de6"
+                    }
+                ],
+                "createdAt": "2021-08-26T05:49:30.904Z",
+                "updatedAt": "2021-08-26T05:49:31.021Z",
+                "__v": 1,
+                "parent": "61138e6c13ff946e39d912ba"
+            },
+            {
+                "_id": "61270bedacfddf10cac51ddd",
+                "showMap": false,
+                "type": "send",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Bình Minh Phan Hoàng",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        109.1962692,
+                        12.2832696
+                    ]
+                },
+                "address": "Vĩnh Hòa, Nha Trang",
+                "phoneNumber": "0962555357",
+                "items": [
+                    {
+                        "_id": "61270bedacfddf10cac51ddf",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61270bedacfddf10cac51dde"
+                    }
+                ],
+                "createdAt": "2021-08-26T03:35:09.122Z",
+                "updatedAt": "2021-08-26T06:51:05.136Z",
+                "__v": 1,
+                "district": "61272d8c0a8d1f36ba8d090b",
+                "province": "61272d8c0a8d1f36ba8d090a"
+            },
+            {
+                "_id": "61270b58acfddf10cac51dd4",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Tim",
+                "phoneNumber": "0398967132",
+                "items": [
+                    {
+                        "_id": "61270b58acfddf10cac51dd9",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61270b58acfddf10cac51dd5"
+                    },
+                    {
+                        "_id": "61270b58acfddf10cac51dda",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61270b58acfddf10cac51dd6"
+                    },
+                    {
+                        "_id": "61270b58acfddf10cac51ddb",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61270b58acfddf10cac51dd7"
+                    },
+                    {
+                        "_id": "61270b58acfddf10cac51ddc",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61270b58acfddf10cac51dd8"
+                    }
+                ],
+                "createdAt": "2021-08-26T03:32:40.159Z",
+                "updatedAt": "2021-08-26T03:32:40.387Z",
+                "__v": 1,
+                "parent": "611d617afadd5e47792f231c"
+            },
+            {
+                "_id": "6127057facfddf10cac51dcc",
+                "showMap": false,
+                "type": "send",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Linh Le",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        105.8642709,
+                        20.9945685
+                    ]
+                },
+                "address": "nhà C12 ngõ 409 Tam Trinh, Hoàng Mai, Hà Nội",
+                "phoneNumber": "0968465719",
+                "items": [
+                    {
+                        "_id": "6127057facfddf10cac51dd0",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6127057facfddf10cac51dcd"
+                    },
+                    {
+                        "_id": "6127057facfddf10cac51dd1",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6127057facfddf10cac51dce"
+                    },
+                    {
+                        "_id": "6127057facfddf10cac51dd2",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6127057facfddf10cac51dcf"
+                    }
+                ],
+                "createdAt": "2021-08-26T03:07:43.099Z",
+                "updatedAt": "2021-08-26T06:51:05.118Z",
+                "__v": 1,
+                "district": "610face7f743e01e61cab773",
+                "province": "60ec917bea0e52005626244e"
+            },
+            {
+                "_id": "6126fe56acfddf10cac51dbc",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": "HIGH",
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "isShared": false,
+                "name": "Nguyễn Thị Hằng",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.70138929,
+                        10.6850431070001
+                    ]
+                },
+                "address": "2/20 Lê Văn Lương, Nhơn Đức, Nhà Bè, Hồ Chí Minh",
+                "note": "nhà có trẻ nhỏ và thiếu thương thực , cần hỗ trợ sữa cho bé nhiều ạ",
+                "phoneNumber": "0816669168",
+                "items": [
+                    {
+                        "_id": "6126fe56acfddf10cac51dc2",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126fe56acfddf10cac51dbd"
+                    },
+                    {
+                        "_id": "6126fe56acfddf10cac51dc3",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126fe56acfddf10cac51dbe"
+                    },
+                    {
+                        "_id": "6126fe56acfddf10cac51dc4",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126fe56acfddf10cac51dbf"
+                    },
+                    {
+                        "_id": "6126fe56acfddf10cac51dc5",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126fe56acfddf10cac51dc0"
+                    },
+                    {
+                        "_id": "6126fe56acfddf10cac51dc6",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126fe56acfddf10cac51dc1"
+                    }
+                ],
+                "createdAt": "2021-08-26T02:37:10.909Z",
+                "updatedAt": "2021-08-26T02:37:11.027Z",
+                "__v": 1,
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "6126f91aacfddf10cac51db3",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Nguyễn Văn Nam",
+                "note": "Ck 1 tr hỗ trợ",
+                "phoneNumber": "0979999799",
+                "items": [
+                    {
+                        "_id": "6126f91aacfddf10cac51db5",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126f91aacfddf10cac51db4"
+                    }
+                ],
+                "createdAt": "2021-08-26T02:14:50.157Z",
+                "updatedAt": "2021-08-26T02:14:50.250Z",
+                "__v": 1,
+                "parent": "6116922713ff946e39d9e93f"
+            },
+            {
+                "_id": "6126f09eacfddf10cac51d99",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Fimage.jpg?alt=media&token=1b9d09a3-a37f-4664-9328-7ba638af35a7"
+                ],
+                "numParticipants": 5,
+                "name": "vũ Đức Thành",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        105.81832398054479,
+                        20.995337246463585
+                    ]
+                },
+                "address": "211/20 Khương Trung, Khương Trung, Thanh Xuân, Hà Nội",
+                "phoneNumber": "0229067008",
+                "items": [
+                    {
+                        "_id": "6126f257acfddf10cac51da6",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126f09eacfddf10cac51d9a"
+                    },
+                    {
+                        "_id": "6126f257acfddf10cac51da7",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126f09eacfddf10cac51d9b"
+                    },
+                    {
+                        "_id": "6126f257acfddf10cac51da8",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126f09eacfddf10cac51d9c"
+                    },
+                    {
+                        "_id": "6126f257acfddf10cac51da9",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126f09eacfddf10cac51d9d"
+                    },
+                    {
+                        "_id": "6126f257acfddf10cac51daa",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126f09eacfddf10cac51d9e"
+                    },
+                    {
+                        "_id": "6126f257acfddf10cac51dab",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126f09eacfddf10cac51d9f"
+                    }
+                ],
+                "createdAt": "2021-08-26T01:38:38.879Z",
+                "updatedAt": "2021-08-26T01:45:59.321Z",
+                "__v": 1,
+                "updated_by": "610e0dff8969f151c6518f67"
+            },
+            {
+                "_id": "6126d9baacfddf10cac51c9f",
+                "showMap": true,
+                "type": "send",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Trần Tuấn Minh",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        103.9083828,
+                        21.3413173
+                    ]
+                },
+                "address": "209 Tô Hiệu, TP. Sơn La",
+                "phoneNumber": "0963675999",
+                "items": [
+                    {
+                        "_id": "6126ee85acfddf10cac51d92",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126d9baacfddf10cac51ca0"
+                    },
+                    {
+                        "_id": "6126ee85acfddf10cac51d93",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126d9baacfddf10cac51ca1"
+                    },
+                    {
+                        "_id": "6126ee85acfddf10cac51d94",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126d9baacfddf10cac51ca2"
+                    },
+                    {
+                        "_id": "6126ee85acfddf10cac51d95",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126d9baacfddf10cac51ca3"
+                    },
+                    {
+                        "_id": "6126ee85acfddf10cac51d96",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126d9baacfddf10cac51ca4"
+                    },
+                    {
+                        "_id": "6126ee85acfddf10cac51d97",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126d9baacfddf10cac51ca5"
+                    },
+                    {
+                        "_id": "6126ee85acfddf10cac51d98",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126d9baacfddf10cac51ca6"
+                    }
+                ],
+                "createdAt": "2021-08-26T00:00:58.394Z",
+                "updatedAt": "2021-08-26T06:51:05.187Z",
+                "__v": 1,
+                "updated_by": "610e0dff8969f151c6518f67",
+                "district": "61272d8c0a8d1f36ba8d090b",
+                "province": "61272d8c0a8d1f36ba8d090a"
+            },
+            {
+                "_id": "612681ceacfddf10cac51c96",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Phạm Văn Hiếu",
+                "phoneNumber": "0985689511",
+                "items": [
+                    {
+                        "_id": "612681ceacfddf10cac51c9b",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "612681ceacfddf10cac51c97"
+                    },
+                    {
+                        "_id": "612681ceacfddf10cac51c9c",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "612681ceacfddf10cac51c98"
+                    },
+                    {
+                        "_id": "612681ceacfddf10cac51c9d",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "612681ceacfddf10cac51c99"
+                    },
+                    {
+                        "_id": "612681ceacfddf10cac51c9e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "612681ceacfddf10cac51c9a"
+                    }
+                ],
+                "createdAt": "2021-08-25T17:45:50.514Z",
+                "updatedAt": "2021-08-25T17:45:50.647Z",
+                "__v": 1,
+                "parent": "6123b7ca11dfee2380d78b75"
+            },
+            {
+                "_id": "61268132acfddf10cac51c93",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/direct-support%2FScreenshot_2021-08-25-15-40-44-675_com.vnpay.vpbankonline.jpg?alt=media&token=f934d504-0625-47e8-8c95-0a9ad9e48144"
+                ],
+                "name": "Huỳnh Thị Yến Xuân",
+                "note": "Nhóm NCCS đã hỗ trợ GĐ chị Thủy Tiên 400k",
+                "phoneNumber": "0908482070",
+                "items": [
+                    {
+                        "_id": "61268132acfddf10cac51c95",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61268132acfddf10cac51c94"
+                    }
+                ],
+                "createdAt": "2021-08-25T17:43:14.106Z",
+                "updatedAt": "2021-08-25T17:43:14.201Z",
+                "__v": 1,
+                "parent": "6105a64643bc5e0728a7e03e"
+            },
+            {
+                "_id": "6126800eacfddf10cac51c8e",
+                "showMap": false,
+                "type": "send",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Cu Thóc",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        105.6996078,
+                        21.0598058
+                    ]
+                },
+                "address": "",
+                "phoneNumber": "0347692544",
+                "items": [
+                    {
+                        "_id": "6126800eacfddf10cac51c91",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126800eacfddf10cac51c8f"
+                    },
+                    {
+                        "_id": "6126800eacfddf10cac51c92",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6126800eacfddf10cac51c90"
+                    }
+                ],
+                "createdAt": "2021-08-25T17:38:22.207Z",
+                "updatedAt": "2021-08-25T17:38:22.241Z",
+                "__v": 1
+            },
+            {
+                "_id": "61267cbaacfddf10cac51c83",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Nguyễn Thị Ngọc Trâm",
+                "phoneNumber": "0967928051",
+                "items": [
+                    {
+                        "_id": "61267cbaacfddf10cac51c89",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267cbaacfddf10cac51c84"
+                    },
+                    {
+                        "_id": "61267cbaacfddf10cac51c8a",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267cbaacfddf10cac51c85"
+                    },
+                    {
+                        "_id": "61267cbaacfddf10cac51c8b",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267cbaacfddf10cac51c86"
+                    },
+                    {
+                        "_id": "61267cbaacfddf10cac51c8c",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267cbaacfddf10cac51c87"
+                    },
+                    {
+                        "_id": "61267cbaacfddf10cac51c8d",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267cbaacfddf10cac51c88"
+                    }
+                ],
+                "createdAt": "2021-08-25T17:24:10.488Z",
+                "updatedAt": "2021-08-25T17:24:10.597Z",
+                "__v": 1,
+                "parent": "61214d98536f067f36ba0a0f"
+            },
+            {
+                "_id": "612675e3acfddf10cac51c7c",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Trâm BB và bạn bè",
+                "note": "Đã liên hệ . 26/8 gửi hỗ trợ thực phẩm",
+                "phoneNumber": "0913976996",
+                "items": [
+                    {
+                        "_id": "612675e3acfddf10cac51c80",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "612675e3acfddf10cac51c7d"
+                    },
+                    {
+                        "_id": "612675e3acfddf10cac51c81",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "612675e3acfddf10cac51c7e"
+                    },
+                    {
+                        "_id": "612675e3acfddf10cac51c82",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "612675e3acfddf10cac51c7f"
+                    }
+                ],
+                "createdAt": "2021-08-25T16:54:59.950Z",
+                "updatedAt": "2021-08-25T16:55:00.071Z",
+                "__v": 1,
+                "parent": "6121fbc2536f067f36ba2aa3"
+            },
+            {
+                "_id": "612675a1acfddf10cac51c75",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Trâm BB và bạn bè",
+                "note": "Đã hỗ trợ 25/8",
+                "phoneNumber": "0913976996",
+                "items": [
+                    {
+                        "_id": "612675a1acfddf10cac51c79",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "612675a1acfddf10cac51c76"
+                    },
+                    {
+                        "_id": "612675a1acfddf10cac51c7a",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "612675a1acfddf10cac51c77"
+                    },
+                    {
+                        "_id": "612675a1acfddf10cac51c7b",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "612675a1acfddf10cac51c78"
+                    }
+                ],
+                "createdAt": "2021-08-25T16:53:53.105Z",
+                "updatedAt": "2021-08-25T16:53:53.190Z",
+                "__v": 1,
+                "parent": "612088ff536f067f36b9599a"
+            },
+            {
+                "_id": "61267570acfddf10cac51c70",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Trâm BB và bạn bè",
+                "note": "Đã hỗ trợ thực phẩm 21/8",
+                "phoneNumber": "0913976996",
+                "items": [
+                    {
+                        "_id": "61267570acfddf10cac51c73",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267570acfddf10cac51c71"
+                    },
+                    {
+                        "_id": "61267570acfddf10cac51c74",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267570acfddf10cac51c72"
+                    }
+                ],
+                "createdAt": "2021-08-25T16:53:04.758Z",
+                "updatedAt": "2021-08-25T16:53:04.835Z",
+                "__v": 1,
+                "parent": "611f9f6c536f067f36b8f3a9"
+            },
+            {
+                "_id": "61267559acfddf10cac51c63",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Mee ",
+                "note": "Đã liên lạc và gửi đồ vào ngày mai 26.8",
+                "phoneNumber": "0969888893",
+                "items": [
+                    {
+                        "_id": "61267559acfddf10cac51c6a",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267559acfddf10cac51c64"
+                    },
+                    {
+                        "_id": "61267559acfddf10cac51c6b",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267559acfddf10cac51c65"
+                    },
+                    {
+                        "_id": "61267559acfddf10cac51c6c",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267559acfddf10cac51c66"
+                    },
+                    {
+                        "_id": "61267559acfddf10cac51c6d",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267559acfddf10cac51c67"
+                    },
+                    {
+                        "_id": "61267559acfddf10cac51c6e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267559acfddf10cac51c68"
+                    },
+                    {
+                        "_id": "61267559acfddf10cac51c6f",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267559acfddf10cac51c69"
+                    }
+                ],
+                "createdAt": "2021-08-25T16:52:41.458Z",
+                "updatedAt": "2021-08-25T16:52:41.630Z",
+                "__v": 1,
+                "parent": "611e557bfadd5e47792f7a07"
+            },
+            {
+                "_id": "61267508acfddf10cac51c5a",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Mee",
+                "note": "Đã liên lạc và gửi đồ vào ngày mai 26.8",
+                "phoneNumber": "0969888893",
+                "items": [
+                    {
+                        "_id": "61267508acfddf10cac51c5f",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267508acfddf10cac51c5b"
+                    },
+                    {
+                        "_id": "61267508acfddf10cac51c60",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267508acfddf10cac51c5c"
+                    },
+                    {
+                        "_id": "61267508acfddf10cac51c61",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267508acfddf10cac51c5d"
+                    },
+                    {
+                        "_id": "61267508acfddf10cac51c62",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267508acfddf10cac51c5e"
+                    }
+                ],
+                "createdAt": "2021-08-25T16:51:20.134Z",
+                "updatedAt": "2021-08-25T16:51:20.270Z",
+                "__v": 1,
+                "parent": "61207989536f067f36b94f61"
+            },
+            {
+                "_id": "612674abacfddf10cac51c4f",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Mee",
+                "note": "Đã liên lạc và sẽ gửi đồ vào 26.8",
+                "phoneNumber": "0969888893",
+                "items": [
+                    {
+                        "_id": "612674abacfddf10cac51c55",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "612674abacfddf10cac51c50"
+                    },
+                    {
+                        "_id": "612674abacfddf10cac51c56",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "612674abacfddf10cac51c51"
+                    },
+                    {
+                        "_id": "612674abacfddf10cac51c57",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "612674abacfddf10cac51c52"
+                    },
+                    {
+                        "_id": "612674abacfddf10cac51c58",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "612674abacfddf10cac51c53"
+                    },
+                    {
+                        "_id": "612674abacfddf10cac51c59",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "612674abacfddf10cac51c54"
+                    }
+                ],
+                "createdAt": "2021-08-25T16:49:47.386Z",
+                "updatedAt": "2021-08-25T16:49:47.635Z",
+                "__v": 1,
+                "parent": "612379e311dfee2380d76283"
+            },
+            {
+                "_id": "61267487acfddf10cac51c48",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Trâm BB và bạn bè",
+                "note": "Đã hỗ trợ 20/8",
+                "phoneNumber": "0913976996",
+                "items": [
+                    {
+                        "_id": "61267487acfddf10cac51c4c",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267487acfddf10cac51c49"
+                    },
+                    {
+                        "_id": "61267487acfddf10cac51c4d",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267487acfddf10cac51c4a"
+                    },
+                    {
+                        "_id": "61267487acfddf10cac51c4e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267487acfddf10cac51c4b"
+                    }
+                ],
+                "createdAt": "2021-08-25T16:49:11.559Z",
+                "updatedAt": "2021-08-25T16:49:11.659Z",
+                "__v": 1,
+                "parent": "61191863393a560f81971997"
+            },
+            {
+                "_id": "61267446acfddf10cac51c41",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Trâm BB và bạn bè",
+                "note": "Đã hỗ trợ thực phẩm 23/8",
+                "phoneNumber": "0913976996",
+                "items": [
+                    {
+                        "_id": "61267446acfddf10cac51c45",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267446acfddf10cac51c42"
+                    },
+                    {
+                        "_id": "61267446acfddf10cac51c46",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267446acfddf10cac51c43"
+                    },
+                    {
+                        "_id": "61267446acfddf10cac51c47",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61267446acfddf10cac51c44"
+                    }
+                ],
+                "createdAt": "2021-08-25T16:48:06.925Z",
+                "updatedAt": "2021-08-25T16:48:07.061Z",
+                "__v": 1,
+                "parent": "611eae42fadd5e47792f9efa"
+            }
+        ],
+        "2": [
+            {
+                "_id": "611f453b536f067f36b8bc6f",
+                "showMap": true,
+                "type": "send",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Quyên",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.67234464,
+                        10.7913244820001
+                    ]
+                },
+                "address": "102 Lê Văn Sỹ, Phường 11, Phú Nhuận, Hồ Chí Minh",
+                "phoneNumber": "0934053744",
+                "items": [
+                    {
+                        "_id": "611f786e536f067f36b8db86",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f453b536f067f36b8bc70"
+                    },
+                    {
+                        "_id": "611f786e536f067f36b8db87",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f453b536f067f36b8bc71"
+                    },
+                    {
+                        "_id": "611f786e536f067f36b8db88",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f453b536f067f36b8bc72"
+                    },
+                    {
+                        "_id": "611f786e536f067f36b8db89",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f453b536f067f36b8bc73"
+                    }
+                ],
+                "createdAt": "2021-08-20T06:01:31.707Z",
+                "updatedAt": "2021-08-26T06:47:10.003Z",
+                "__v": 1,
+                "updated_by": "61018697662172270ed9a323",
+                "district": "61026144662172270ed9b7cf",
+                "province": "60ec916bea0e52005626244d"
+            },
+            {
+                "_id": "611f452b536f067f36b8bc65",
+                "showMap": true,
+                "type": "send",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Chu hồng minh",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.668753145,
+                        10.8152935730001
+                    ]
+                },
+                "address": "17 Hẻm B22 Bạch Đằng, Phường 2, Tân Bình, Hồ Chí Minh",
+                "phoneNumber": "0933143592",
+                "items": [
+                    {
+                        "_id": "611f7876536f067f36b8db8a",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f452b536f067f36b8bc66"
+                    },
+                    {
+                        "_id": "611f7876536f067f36b8db8b",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f452b536f067f36b8bc67"
+                    }
+                ],
+                "createdAt": "2021-08-20T06:01:15.578Z",
+                "updatedAt": "2021-08-26T06:47:09.995Z",
+                "__v": 1,
+                "updated_by": "61018697662172270ed9a323",
+                "district": "6102614d662172270ed9b7d0",
+                "province": "60ec916bea0e52005626244d"
+            },
+            {
+                "_id": "611f451c536f067f36b8bc51",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2FIMG20210820125212.jpg?alt=media&token=8dc47fc2-6017-4d7a-882a-3e381608a4ff",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Freceived_374652214379318~2.jpeg?alt=media&token=c6258775-cf84-42ec-a428-a8a8c9671896",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2FIMG20210820125006.jpg?alt=media&token=452d0c4f-5ca1-429c-ab24-a524f32a7596"
+                ],
+                "numParticipants": 20,
+                "name": "Lê thị thùy",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        105.872406966,
+                        21.0000503590001
+                    ]
+                },
+                "address": "43 Dương Văn Bé, Vĩnh Tuy, Hai Bà Trưng, Hà Nội",
+                "note": "Hiện tại   khu e có  5 phong có  con nhỏ và  co nhg cô nhju tuổi  đi thu mua đồng nát  và  nhju  lao động  tự do  bị kẹt đại hn .hiện chúng e đg ở  khu vực  bị phong tỏa không  ra khỏi  khu vực  cg k trở  về  quê đk  rất mong nhận được sự giúp đỡ  của các  mạnh thường quân  .e ở  số  43/34/238/28  Dương Văn  Bé vĩnh tuy hai bà trưng hà nội. \nSđt e  0396751308 .0975119915",
+                "phoneNumber": "0396751308.0975119915",
+                "items": [
+                    {
+                        "_id": "612067ef536f067f36b9463c",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f451c536f067f36b8bc52"
+                    },
+                    {
+                        "_id": "612067ef536f067f36b9463d",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f451c536f067f36b8bc53"
+                    },
+                    {
+                        "_id": "612067ef536f067f36b9463e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f451c536f067f36b8bc54"
+                    },
+                    {
+                        "_id": "612067ef536f067f36b9463f",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f451c536f067f36b8bc55"
+                    },
+                    {
+                        "_id": "612067ef536f067f36b94640",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f451c536f067f36b8bc56"
+                    }
+                ],
+                "createdAt": "2021-08-20T06:01:00.494Z",
+                "updatedAt": "2021-08-21T02:41:51.503Z",
+                "__v": 1,
+                "updated_by": "61018697662172270ed9a323"
+            },
+            {
+                "_id": "611f44fc536f067f36b8bc3b",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "numParticipants": 1,
+                "name": "Bùi Phan Dạ Thảo",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.6708001,
+                        10.7387135
+                    ]
+                },
+                "address": "14 Hẻm 126 Tám Danh, Phường 4, Quận 8, Hồ Chí Minh",
+                "note": "Nhà 4 người, 2 vợ chồng 2 đứa con thất nghiệp từ tháng 6 đến nay chưa nhận được tiền trợ cấp đợt nào hết",
+                "phoneNumber": "0907606711",
+                "items": [
+                    {
+                        "_id": "6120dc4b536f067f36b9c7db",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f44fc536f067f36b8bc3c"
+                    },
+                    {
+                        "_id": "6120dc4b536f067f36b9c7dc",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f44fc536f067f36b8bc3d"
+                    },
+                    {
+                        "_id": "6120dc4b536f067f36b9c7dd",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f44fc536f067f36b8bc3e"
+                    },
+                    {
+                        "_id": "6120dc4b536f067f36b9c7de",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f44fc536f067f36b8bc3f"
+                    },
+                    {
+                        "_id": "6120dc4b536f067f36b9c7df",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f44fc536f067f36b8bc40"
+                    }
+                ],
+                "createdAt": "2021-08-20T06:00:28.846Z",
+                "updatedAt": "2021-08-21T10:58:19.791Z",
+                "__v": 1,
+                "updated_by": "61018697662172270ed9a323"
+            },
+            {
+                "_id": "611f4493536f067f36b8bc17",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2FIMG20200203221653.jpg?alt=media&token=511fa8c1-a8de-436d-b440-983845614cd8"
+                ],
+                "numParticipants": 3,
+                "name": "Võ Thị mơ ",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.5516171,
+                        10.8216644
+                    ]
+                },
+                "address": "Sweet Home Garden, Kênh Trung Ương, Vĩnh Lộc A, Bình Chánh, Hồ Chí Minh",
+                "note": "Tôi rất cần lúc này vì dịch bệnh không đi làm đc khu chỗ tôi ở bị phong toả ko có tiền đóng tiền phòng con nhỏ ko có sữa uống mong mạnh thường quân giúp đỡ tôi lúc khó khăn này ạ ",
+                "phoneNumber": "0922149237",
+                "items": [
+                    {
+                        "_id": "6120ffab536f067f36b9e16d",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4493536f067f36b8bc18"
+                    },
+                    {
+                        "_id": "6120ffab536f067f36b9e16e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4493536f067f36b8bc19"
+                    },
+                    {
+                        "_id": "6120ffab536f067f36b9e16f",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4493536f067f36b8bc1a"
+                    },
+                    {
+                        "_id": "6120ffab536f067f36b9e170",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4493536f067f36b8bc1b"
+                    },
+                    {
+                        "_id": "6120ffab536f067f36b9e171",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4493536f067f36b8bc1c"
+                    }
+                ],
+                "createdAt": "2021-08-20T05:58:43.724Z",
+                "updatedAt": "2021-08-21T13:29:15.549Z",
+                "__v": 1,
+                "updated_by": "61177c5413ff946e39da3bbb"
+            },
+            {
+                "_id": "611f4474536f067f36b8bc0a",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/direct-support%2F20210820_102046.jpg?alt=media&token=e87d3c4d-aaaa-4f9b-9f26-84b598b0651f"
+                ],
+                "name": "Linh",
+                "phoneNumber": "0961801551",
+                "items": [
+                    {
+                        "_id": "611f4474536f067f36b8bc0d",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4474536f067f36b8bc0b"
+                    },
+                    {
+                        "_id": "611f4474536f067f36b8bc0e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4474536f067f36b8bc0c"
+                    }
+                ],
+                "createdAt": "2021-08-20T05:58:12.421Z",
+                "updatedAt": "2021-08-20T05:58:12.486Z",
+                "__v": 1,
+                "parent": "610e7b708969f151c651b37b"
+            },
+            {
+                "_id": "611f4458536f067f36b8bbfc",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "numParticipants": 1,
+                "name": "Huỳnh Tấn Đạt",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.7199619,
+                        11.0046338
+                    ]
+                },
+                "address": "Chợ Tân Phước Khánh, Tân Phước Khánh, Tân Uyên, Bình Dương",
+                "note": "Em làm dịch vụ thất nghiệp gần 5 tháng rồi tiền nhà tiền ăn hết luôn mà không được ra đường ,mong ad giúp đỡ :((",
+                "phoneNumber": "0589830554",
+                "items": [
+                    {
+                        "_id": "6120a342536f067f36b96cce",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4458536f067f36b8bbfd"
+                    },
+                    {
+                        "_id": "6120a342536f067f36b96ccf",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4458536f067f36b8bbfe"
+                    },
+                    {
+                        "_id": "6120a342536f067f36b96cd0",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4458536f067f36b8bbff"
+                    },
+                    {
+                        "_id": "6120a342536f067f36b96cd1",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4458536f067f36b8bc00"
+                    }
+                ],
+                "createdAt": "2021-08-20T05:57:44.140Z",
+                "updatedAt": "2021-08-21T06:54:58.250Z",
+                "__v": 1,
+                "updated_by": "61177c5413ff946e39da3bbb"
+            },
+            {
+                "_id": "611f4452536f067f36b8bbf4",
+                "showMap": true,
+                "type": "direct_support",
+                "isFinished": true,
+                "cost_type": null,
+                "priority": null,
+                "status": "APPROVED",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/direct-support%2F1048E714-4923-4DCB-9C19-5206069C28AE.png?alt=media&token=060534e1-5061-46d2-8005-07ff2931b041"
+                ],
+                "name": "Nguyễn Minh Phương",
+                "note": "Tôi đã hỗ trợ 6kg rau mà gia đình cần",
+                "phoneNumber": "0385480246",
+                "items": [
+                    {
+                        "_id": "6124a30cacfddf10cac4cf9b",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4452536f067f36b8bbf5"
+                    }
+                ],
+                "createdAt": "2021-08-20T05:57:38.066Z",
+                "updatedAt": "2021-08-24T07:43:08.686Z",
+                "__v": 1,
+                "parent": "61018629662172270ed9a2ff",
+                "updated_by": "6107e714baba9057a53999ee"
+            },
+            {
+                "_id": "611f441b536f067f36b8bbe3",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2F16294388032725837554355429523292.jpg?alt=media&token=d4db9cca-476c-4498-a1ac-b31c23808ea7"
+                ],
+                "numParticipants": 8,
+                "name": "Nguyễn đình công ",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.6166393,
+                        10.8744236
+                    ]
+                },
+                "address": "Ấp Đông, Thới Tam Thôn, Hóc Môn, Hồ Chí Minh",
+                "note": "Cam on nha hão Tâm ",
+                "phoneNumber": "0963145915",
+                "items": [
+                    {
+                        "_id": "611fc2ee536f067f36b9135a",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f441b536f067f36b8bbe4"
+                    },
+                    {
+                        "_id": "611fc2ee536f067f36b9135b",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f441b536f067f36b8bbe5"
+                    },
+                    {
+                        "_id": "611fc2ee536f067f36b9135c",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f441b536f067f36b8bbe6"
+                    }
+                ],
+                "createdAt": "2021-08-20T05:56:43.991Z",
+                "updatedAt": "2021-08-20T14:57:50.820Z",
+                "__v": 1,
+                "updated_by": "61177c5413ff946e39da3bbb"
+            },
+            {
+                "_id": "611f4416536f067f36b8bbd3",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "numParticipants": 3,
+                "name": "Phan Thị Hai",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.599377829,
+                        10.8231752090001
+                    ]
+                },
+                "address": "13 Hẻm 175/3 Hồ Văn Long, Bình Hưng Hòa B, Bình Tân, Hồ Chí Minh",
+                "note": "_ 542/3/13 Hồ Học Lãm , Phường Bình trị Đông B , Quận Bình Tân , TP Hồ Chí Minh\n_ Gđ mất việc làm 2 tháng , nuôi con nhỏ 7 tuổi chưa có ai hỗ trợ mong mạnh thường quân hỗ trợ",
+                "phoneNumber": "0386240938",
+                "items": [
+                    {
+                        "_id": "611f442c536f067f36b8bbea",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4416536f067f36b8bbd4"
+                    },
+                    {
+                        "_id": "611f442c536f067f36b8bbeb",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4416536f067f36b8bbd5"
+                    },
+                    {
+                        "_id": "611f442c536f067f36b8bbec",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4416536f067f36b8bbd6"
+                    },
+                    {
+                        "_id": "611f442c536f067f36b8bbed",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4416536f067f36b8bbd7"
+                    },
+                    {
+                        "_id": "611f442c536f067f36b8bbee",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4416536f067f36b8bbd8"
+                    }
+                ],
+                "createdAt": "2021-08-20T05:56:38.726Z",
+                "updatedAt": "2021-08-20T05:57:00.880Z",
+                "__v": 1,
+                "updated_by": "60f29ed81ec9f000d9055e1a"
+            },
+            {
+                "_id": "611f43cb536f067f36b8bbb6",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound3001654378217355511.jpg?alt=media&token=5d11602a-2fd5-4635-bc32-204c17408a44",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound4696434006451869098.jpg?alt=media&token=eeb3a2ce-3206-485f-acf0-e2bbb6e6bf17"
+                ],
+                "numParticipants": 70,
+                "name": "Phan thị kim trinh ",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        105.7790812,
+                        10.0271724
+                    ]
+                },
+                "address": "Hẻm 71 Quang Trung, Xuân Khánh, Ninh Kiều, Cần Thơ",
+                "note": "Trinh nhận và phát đầy đủ và gửi thông tin lại cho mọi người xem ",
+                "phoneNumber": "0786973882",
+                "items": [
+                    {
+                        "_id": "61206b8f536f067f36b94a0a",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f43cb536f067f36b8bbb7"
+                    },
+                    {
+                        "_id": "61206b8f536f067f36b94a0b",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f43cb536f067f36b8bbb8"
+                    },
+                    {
+                        "_id": "61206b8f536f067f36b94a0c",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f43cb536f067f36b8bbb9"
+                    },
+                    {
+                        "_id": "61206b8f536f067f36b94a0d",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f43cb536f067f36b8bbba"
+                    },
+                    {
+                        "_id": "61206b8f536f067f36b94a0e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f43cb536f067f36b8bbbb"
+                    },
+                    {
+                        "_id": "61206b8f536f067f36b94a0f",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f43cb536f067f36b8bbbc"
+                    },
+                    {
+                        "_id": "61206b8f536f067f36b94a10",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f43cb536f067f36b8bbbd"
+                    },
+                    {
+                        "_id": "61206b8f536f067f36b94a11",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f43cb536f067f36b8bbbe"
+                    }
+                ],
+                "createdAt": "2021-08-20T05:55:23.153Z",
+                "updatedAt": "2021-08-21T02:57:19.790Z",
+                "__v": 1,
+                "updated_by": "61018697662172270ed9a323"
+            },
+            {
+                "_id": "611f43c3536f067f36b8bbb3",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound2046620612.jpg?alt=media&token=ac93a3c8-9752-48bb-a748-968adcdc2755",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound6018571.jpg?alt=media&token=d25906c9-55be-4728-942a-96eb73ba63fc"
+                ],
+                "numParticipants": 1,
+                "name": "Nguyễn ngọc hoàng",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        109.168021818,
+                        12.190052017
+                    ]
+                },
+                "address": "Xã Phước Đồng, Nha Trang, Khánh Hòa",
+                "note": "Em là bố đơn thân. Hiện em đang nuôi con nhỏ 14th tuổi. Em thì năm đây 26 tuổi. Đc bà nội nuôi lớn chứ cha mẹ em không có ạ. Lúc chưa dịch cha con em củng đã khó khăn trong cuộc sống .giờ dịch cha con em không biết sống sao tiếp những ngày tới. Em xin nhà hảo tâm . và các MTQ giúp đỡ cho con em vượt qua đại dịch này. Em xin chân thành cảm ơn MTQ ạ. Sđt 0346223669. Em tên hoàng. hiện 2 cha con em đang ở trọ . Ở nha trang tỉnh khánh hòa. Hòn rớ . xã phước đồng . ",
+                "phoneNumber": "0346222669",
+                "items": [
+                    {
+                        "_id": "61211a48536f067f36b9f6da",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f43c3536f067f36b8bbb4"
+                    }
+                ],
+                "createdAt": "2021-08-20T05:55:15.966Z",
+                "updatedAt": "2021-08-21T15:22:48.367Z",
+                "__v": 1,
+                "updated_by": "61177c3713ff946e39da3bb6"
+            },
+            {
+                "_id": "611f436e536f067f36b8bbaa",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound1580485352789803047.jpg?alt=media&token=e5fe3871-4671-4dc3-a4a9-53cbd1c8014e",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound6052249518386306926.jpg?alt=media&token=25fdfce8-8033-4c10-8561-7bc3f7ea0b58"
+                ],
+                "numParticipants": 1,
+                "name": "Nguyễn Thị thu Oanh ",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.617255027,
+                        10.794033225
+                    ]
+                },
+                "address": "13 Hẻm 139 Dương Văn Dương, Tân Quý, Tân Phú, Hồ Chí Minh",
+                "note": "Hiện tại 2 vợ chồng e đang thất nghiệp 3 tháng nay rồi còn phải lo cho 2 đứa con nhỏ nữa ạ dạ e xin cảm ơn nhiều ạ",
+                "phoneNumber": "0372627599",
+                "items": [
+                    {
+                        "_id": "611f71e1536f067f36b8d584",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f436e536f067f36b8bbab"
+                    },
+                    {
+                        "_id": "611f71e1536f067f36b8d585",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f436e536f067f36b8bbac"
+                    },
+                    {
+                        "_id": "611f71e1536f067f36b8d586",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f436e536f067f36b8bbad"
+                    },
+                    {
+                        "_id": "611f71e1536f067f36b8d587",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f436e536f067f36b8bbae"
+                    }
+                ],
+                "createdAt": "2021-08-20T05:53:50.410Z",
+                "updatedAt": "2021-08-20T09:12:01.802Z",
+                "__v": 1,
+                "updated_by": "611f358f536f067f36b8b474"
+            },
+            {
+                "_id": "611f4335536f067f36b8bb90",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2FIMG_20210820_123219.jpg?alt=media&token=fc8d32d2-72fe-46ee-98d2-3d3da7bf359a",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2FIMG_20210820_123136.jpg?alt=media&token=180f99cd-2846-4e79-b75a-15b013cd0de0",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2FIMG_20210820_123029.jpg?alt=media&token=be7ca602-6a36-4169-9abb-0a150bdc39ad",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2FIMG_20210820_123219.jpg?alt=media&token=914cbe11-0054-4043-a8a1-fe6f0255c858"
+                ],
+                "numParticipants": 8,
+                "name": "Nguyễn Thanh Nghị",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.767573752131,
+                        10.8864853560069
+                    ]
+                },
+                "address": "Hẻm 113 Đường Số 11, Linh Xuân, Thủ Đức, Hồ Chí Minh",
+                "note": "Chỗ em đang bị phong tỏa, dãy trọ em đa số người già, trẻ nhỏ làm công nhân và lao động tự do thất nghiệp hơn 2 tháng nay, phường khi nay chỉ hỗ trợ được 5kg gạo và 10 trứng gà cách đây 1 tháng mọi người ở đây giờ hết lương thực kêu gọi nhà hảo tâm giúp đỡ qua đại dịch này.",
+                "phoneNumber": "0382840561",
+                "items": [
+                    {
+                        "_id": "6120c04a536f067f36b99e75",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4335536f067f36b8bb91"
+                    },
+                    {
+                        "_id": "6120c04a536f067f36b99e76",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4335536f067f36b8bb92"
+                    },
+                    {
+                        "_id": "6120c04a536f067f36b99e77",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4335536f067f36b8bb93"
+                    },
+                    {
+                        "_id": "6120c04a536f067f36b99e78",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4335536f067f36b8bb94"
+                    },
+                    {
+                        "_id": "6120c04a536f067f36b99e79",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4335536f067f36b8bb95"
+                    },
+                    {
+                        "_id": "6120c04a536f067f36b99e7a",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4335536f067f36b8bb96"
+                    }
+                ],
+                "createdAt": "2021-08-20T05:52:53.614Z",
+                "updatedAt": "2021-08-21T08:58:50.780Z",
+                "__v": 1,
+                "updated_by": "61177c5413ff946e39da3bbb"
+            },
+            {
+                "_id": "611f4314536f067f36b8bb83",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Thanh Tu Nguyen",
+                "phoneNumber": "0945671988",
+                "items": [
+                    {
+                        "_id": "611f4314536f067f36b8bb86",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4314536f067f36b8bb84"
+                    },
+                    {
+                        "_id": "611f4314536f067f36b8bb87",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4314536f067f36b8bb85"
+                    }
+                ],
+                "createdAt": "2021-08-20T05:52:20.285Z",
+                "updatedAt": "2021-08-23T15:41:03.305Z",
+                "__v": 1,
+                "parent": "611e02aafadd5e47792f42e4"
+            },
+            {
+                "_id": "611f4312536f067f36b8bb7e",
+                "showMap": true,
+                "type": "direct_support",
+                "isFinished": true,
+                "cost_type": null,
+                "priority": null,
+                "status": "APPROVED",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "name": "Tram",
+                "note": "Điều phối phan thanh tùng đã cho đt bà con cần hỗ trợ qua lấy quà",
+                "phoneNumber": "0708022565",
+                "items": [
+                    {
+                        "_id": "6124a972acfddf10cac4d29d",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4312536f067f36b8bb7f"
+                    },
+                    {
+                        "_id": "6124a972acfddf10cac4d29e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f4312536f067f36b8bb80"
+                    }
+                ],
+                "createdAt": "2021-08-20T05:52:18.932Z",
+                "updatedAt": "2021-08-24T08:10:27.094Z",
+                "__v": 1,
+                "parent": "61189e7e13ff946e39dac99d",
+                "updated_by": "6107e714baba9057a53999ee"
+            },
+            {
+                "_id": "611f42fb536f067f36b8bb6c",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "numParticipants": 1,
+                "name": "Lê Thị Thu",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.644631798,
+                        10.8043374820001
+                    ]
+                },
+                "address": "40 Hẻm 37 Đường C1, Phường 13, Tân Bình, Hồ Chí Minh",
+                "note": "E ở trọ, e mới đi làm đc vài ngày thì nghỉ dịch ở trọ 2 tháng rồi ko còn tiền để sinh hoạt, e cần 1 ít rau thôi ạ, gạo mì e cũng có r ạ, e cảm ơn mọi người nhiều. ",
+                "phoneNumber": "0911018447",
+                "items": [
+                    {
+                        "_id": "611f730a536f067f36b8d6c3",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f42fb536f067f36b8bb6d"
+                    },
+                    {
+                        "_id": "611f730a536f067f36b8d6c4",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f42fb536f067f36b8bb6e"
+                    },
+                    {
+                        "_id": "611f730a536f067f36b8d6c5",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f42fb536f067f36b8bb6f"
+                    }
+                ],
+                "createdAt": "2021-08-20T05:51:55.165Z",
+                "updatedAt": "2021-08-20T09:16:58.322Z",
+                "__v": 1,
+                "updated_by": "611f358f536f067f36b8b474"
+            },
+            {
+                "_id": "611f42f5536f067f36b8bb61",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2F16294385567326086895256103598171.jpg?alt=media&token=6e1a0c6d-4abf-40c4-99d5-f0e250318786",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2F16294386324646424990166966482507.jpg?alt=media&token=36e301a6-b556-4be2-9e79-35e92106bb2e"
+                ],
+                "numParticipants": 11,
+                "name": "Pham thi thu van ",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.6543679,
+                        10.6986084
+                    ]
+                },
+                "address": "Quán cơm Bibo, Quốc Lộ 50, Phong Phú, Bình Chánh, Hồ Chí Minh",
+                "note": "Minh o nha tro nha minh bi dân cách k ai di lam 2 thang nha k con tien nha cung k con lương thực ăn kinh mong giúp ho tro nha minh....nêu đc ho tro cho dai tro nha minh .xin cam on",
+                "phoneNumber": "0772088812",
+                "items": [
+                    {
+                        "_id": "61211bee536f067f36b9fa06",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f42f5536f067f36b8bb62"
+                    },
+                    {
+                        "_id": "61211bee536f067f36b9fa07",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f42f5536f067f36b8bb63"
+                    },
+                    {
+                        "_id": "61211bee536f067f36b9fa08",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f42f5536f067f36b8bb64"
+                    },
+                    {
+                        "_id": "61211bee536f067f36b9fa09",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f42f5536f067f36b8bb65"
+                    },
+                    {
+                        "_id": "61211bee536f067f36b9fa0a",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f42f5536f067f36b8bb66"
+                    }
+                ],
+                "createdAt": "2021-08-20T05:51:49.011Z",
+                "updatedAt": "2021-08-21T15:29:50.620Z",
+                "__v": 1,
+                "updated_by": "61177c5413ff946e39da3bbb"
+            },
+            {
+                "_id": "611f42e8536f067f36b8bb54",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [],
+                "numParticipants": 3,
+                "name": "Phạm văn quyền",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        108.2398159,
+                        15.975014
+                    ]
+                },
+                "address": "Khu dân cư Khái Tây 1, Hòa Quý, Ngũ Hành Sơn, Đà Nẵng",
+                "note": "Tôi hết gạo và thức ăn mấy hôm rồi",
+                "phoneNumber": "0905315036",
+                "items": [
+                    {
+                        "_id": "611f70d1536f067f36b8d480",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f42e8536f067f36b8bb55"
+                    },
+                    {
+                        "_id": "611f70d1536f067f36b8d481",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f42e8536f067f36b8bb56"
+                    },
+                    {
+                        "_id": "611f70d1536f067f36b8d482",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f42e8536f067f36b8bb57"
+                    }
+                ],
+                "createdAt": "2021-08-20T05:51:36.533Z",
+                "updatedAt": "2021-08-20T09:07:29.401Z",
+                "__v": 1,
+                "updated_by": "611f358f536f067f36b8b474"
+            },
+            {
+                "_id": "611f42d7536f067f36b8bb47",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "isAgreePublicPhoneNumber": false,
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound2793480109747371873.jpg?alt=media&token=2be89b6f-6f65-4d3e-8485-789f7e1f03c3"
+                ],
+                "numParticipants": 1,
+                "name": "Nguyễn phương Thúy ",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.770093787776,
+                        10.9068961306857
+                    ]
+                },
+                "address": "Cô Giang, Dĩ An, Dĩ An, Bình Dương",
+                "note": "**bold text**Tôi là lao động tự do người Hà Tĩnh vào Bình Dương làm thuê bị kẹt lại không về được hiện tại chưa được sự hỗ trợ nào. Mong được hỗ trợ chút lương thực thực phẩm ",
+                "phoneNumber": "0934375288",
+                "items": [
+                    {
+                        "_id": "6120a224536f067f36b96a95",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f42d7536f067f36b8bb48"
+                    },
+                    {
+                        "_id": "6120a224536f067f36b96a96",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f42d7536f067f36b8bb49"
+                    },
+                    {
+                        "_id": "6120a224536f067f36b96a97",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611f42d7536f067f36b8bb4a"
+                    }
+                ],
+                "createdAt": "2021-08-20T05:51:19.863Z",
+                "updatedAt": "2021-08-21T06:50:12.871Z",
+                "__v": 1,
+                "updated_by": "61177c3713ff946e39da3bb6"
+            }
+        ],
+        "3": [
+            {
+                "_id": "61160a9b13ff946e39d9b71d",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/direct-support%2F6794C2DB-5BAC-4A8A-BDAD-A61E365EDE0A.jpeg?alt=media&token=1e0d5e59-3fb8-4628-bde0-21c38ef37083",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/direct-support%2F411A0835-BDC0-4122-9841-94198BFF5876.jpeg?alt=media&token=0807f29b-ff00-4081-af9a-882361ff95c0"
+                ],
+                "name": "Trần Thị Như Ý ",
+                "note": "+ 2 chai nước tương ",
+                "phoneNumber": "0908671267",
+                "items": [
+                    {
+                        "_id": "61160a9b13ff946e39d9b721",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a9b13ff946e39d9b71e"
+                    },
+                    {
+                        "_id": "61160a9b13ff946e39d9b722",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a9b13ff946e39d9b71f"
+                    },
+                    {
+                        "_id": "61160a9b13ff946e39d9b723",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a9b13ff946e39d9b720"
+                    }
+                ],
+                "createdAt": "2021-08-13T06:00:59.402Z",
+                "updatedAt": "2021-08-13T06:00:59.467Z",
+                "__v": 1,
+                "parent": "6106f6d1baba9057a539679a",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "61160a9813ff946e39d9b710",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 1,
+                "name": "Thuy",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.62934039129084,
+                        10.870978464324073
+                    ]
+                },
+                "address": "108 Lâm Thị Hố, Tân Chánh Hiệp, Quận 12, Hồ Chí Minh",
+                "phoneNumber": "0362656630",
+                "items": [
+                    {
+                        "_id": "6116674d13ff946e39d9d914",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a9813ff946e39d9b711"
+                    },
+                    {
+                        "_id": "6116674d13ff946e39d9d915",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a9813ff946e39d9b712"
+                    },
+                    {
+                        "_id": "6116674d13ff946e39d9d916",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a9813ff946e39d9b713"
+                    },
+                    {
+                        "_id": "6116674d13ff946e39d9d917",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a9813ff946e39d9b714"
+                    },
+                    {
+                        "_id": "6116674d13ff946e39d9d918",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a9813ff946e39d9b715"
+                    },
+                    {
+                        "_id": "6116674d13ff946e39d9d919",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a9813ff946e39d9b716"
+                    }
+                ],
+                "createdAt": "2021-08-13T06:00:56.876Z",
+                "updatedAt": "2021-08-13T12:36:29.542Z",
+                "__v": 1,
+                "updated_by": "6107e714baba9057a53999ee",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "61160a2313ff946e39d9b703",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 4,
+                "name": "Nguyen Thi Thuy Linh",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.5913879,
+                        10.8731112
+                    ]
+                },
+                "address": "Xuân Thới 23, Xuân Thới Đông, Hóc Môn, Hồ Chí Minh",
+                "note": "Nhà e có 4đua nhỏ ak giúp đỡ em với ak",
+                "phoneNumber": "0704420161",
+                "items": [
+                    {
+                        "_id": "61179f1c13ff946e39da7ff9",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a2313ff946e39d9b704"
+                    },
+                    {
+                        "_id": "61179f1c13ff946e39da7ffa",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a2313ff946e39d9b705"
+                    },
+                    {
+                        "_id": "61179f1c13ff946e39da7ffb",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a2313ff946e39d9b706"
+                    },
+                    {
+                        "_id": "61179f1c13ff946e39da7ffc",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a2313ff946e39d9b707"
+                    },
+                    {
+                        "_id": "61179f1c13ff946e39da7ffd",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a2313ff946e39d9b708"
+                    },
+                    {
+                        "_id": "61179f1c13ff946e39da7ffe",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a2313ff946e39d9b709"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:58:59.550Z",
+                "updatedAt": "2021-08-14T10:46:52.944Z",
+                "__v": 1,
+                "updated_by": "61177c3713ff946e39da3bb6",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "61160a2113ff946e39d9b6fa",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 11,
+                "name": "Trương an",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.72583592304784,
+                        11.019365943052133
+                    ]
+                },
+                "address": "Hóa Nhựt, Tân Vĩnh Hiệp, Tân Uyên, Bình Dương",
+                "note": "Phong tro e tong la 11 phong da nghi o cty gan 3 tháng nai roi dan can may a chi giúp do e xin cam oh",
+                "phoneNumber": "0372330053",
+                "items": [
+                    {
+                        "_id": "6117cd8513ff946e39daaa06",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a2113ff946e39d9b6fb"
+                    },
+                    {
+                        "_id": "6117cd8513ff946e39daaa07",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a2113ff946e39d9b6fc"
+                    },
+                    {
+                        "_id": "6117cd8513ff946e39daaa08",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a2113ff946e39d9b6fd"
+                    },
+                    {
+                        "_id": "6117cd8513ff946e39daaa09",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61160a2113ff946e39d9b6fe"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:58:57.864Z",
+                "updatedAt": "2021-08-14T14:04:53.950Z",
+                "__v": 1,
+                "updated_by": "61177c3713ff946e39da3bb6",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "611609ee13ff946e39d9b6ef",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound7668562426369364701.jpg?alt=media&token=5898ae73-1b39-4930-8a9d-bb8438cf80cc",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound6055514980484065925.jpg?alt=media&token=62890d18-17d4-4e56-a7c9-eec7ca2ed111",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound5866709927271882190.jpg?alt=media&token=83e9da76-c9a5-4b48-b943-90420ae647a4",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound7853967656166532773.jpg?alt=media&token=09f88d3c-b0c1-449c-a8c8-305f0b26210d",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound6966578839861220614.jpg?alt=media&token=ec7eb01b-fbf8-48ae-a166-d4f5fc6c4717"
+                ],
+                "numParticipants": 1,
+                "name": "Huỳnh thi bé thuong",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.591902158,
+                        10.7246909680001
+                    ]
+                },
+                "address": "Công ty TNHH XNK Sửa chữa ô tô Nhật Thanh, B6/12N Khuất Văn Bức, Tân Kiên, Bình Chánh, Hồ Chí Minh",
+                "note": "E là công nhân có 2 con nhỏ bé 7tuoi bé 3 tuổi.vo chồng e that nghiệp gan 2 thag cần được sự giúp đỡ của a chi. được phân nào cho 2 cháu da e cảm ơn rat nhiều ạ.",
+                "phoneNumber": "0355396169",
+                "items": [
+                    {
+                        "_id": "6117c65313ff946e39daa1dd",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609ee13ff946e39d9b6f0"
+                    },
+                    {
+                        "_id": "6117c65313ff946e39daa1de",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609ee13ff946e39d9b6f1"
+                    },
+                    {
+                        "_id": "6117c65313ff946e39daa1df",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609ee13ff946e39d9b6f2"
+                    },
+                    {
+                        "_id": "6117c65313ff946e39daa1e0",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609ee13ff946e39d9b6f3"
+                    },
+                    {
+                        "_id": "6117c65313ff946e39daa1e1",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609ee13ff946e39d9b6f4"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:58:06.019Z",
+                "updatedAt": "2021-08-14T13:34:11.352Z",
+                "__v": 1,
+                "updated_by": "61177c5413ff946e39da3bbb",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "611609de13ff946e39d9b6e2",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound7838718949978512703.jpg?alt=media&token=45a0488b-d178-43c6-b79e-00509b963353"
+                ],
+                "numParticipants": 3,
+                "name": "Nguyễn Minh Đức ",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.632749157031,
+                        10.846775394977
+                    ]
+                },
+                "address": "Đông Hưng Thuận 13, Đông Hưng Thuận, Quận 12, Hồ Chí Minh",
+                "note": "Do dịch COVID hoàn cảnh dãy trọ hết sức khó khăn mong được giúp đỡ ",
+                "phoneNumber": "0909771630",
+                "items": [
+                    {
+                        "_id": "6117929613ff946e39da67b3",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609de13ff946e39d9b6e3"
+                    },
+                    {
+                        "_id": "6117929613ff946e39da67b4",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609de13ff946e39d9b6e4"
+                    },
+                    {
+                        "_id": "6117929613ff946e39da67b5",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609de13ff946e39d9b6e5"
+                    },
+                    {
+                        "_id": "6117929613ff946e39da67b6",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609de13ff946e39d9b6e6"
+                    },
+                    {
+                        "_id": "6117929613ff946e39da67b7",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609de13ff946e39d9b6e7"
+                    },
+                    {
+                        "_id": "6117929613ff946e39da67b8",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609de13ff946e39d9b6e8"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:57:50.076Z",
+                "updatedAt": "2021-08-14T09:53:26.283Z",
+                "__v": 1,
+                "updated_by": "61177c5413ff946e39da3bbb",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "611609dd13ff946e39d9b6db",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2F01AE76B0-CC31-4893-99FF-E5485595768D.jpeg?alt=media&token=aa874041-8887-4a8a-91f1-956b24f53bae",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2FBF94E399-CC95-475A-BC64-6A3027B3B0B4.jpeg?alt=media&token=670a4c8e-fbeb-44d6-a441-babe0f110aab"
+                ],
+                "numParticipants": 4,
+                "name": "Huyen ",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.638481740345,
+                        10.8842761073965
+                    ]
+                },
+                "address": "Hiệp Thành 13, Hiệp Thành, Quận 12, Hồ Chí Minh",
+                "note": "dang o thue phong tro,nuoi 2con nho ,dich Chong cung that ngiep hon thang nay ",
+                "phoneNumber": "0355156090",
+                "items": [
+                    {
+                        "_id": "61178d0313ff946e39da5ad6",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609dd13ff946e39d9b6dc"
+                    },
+                    {
+                        "_id": "61178d0313ff946e39da5ad7",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609dd13ff946e39d9b6dd"
+                    },
+                    {
+                        "_id": "61178d0313ff946e39da5ad8",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609dd13ff946e39d9b6de"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:57:49.895Z",
+                "updatedAt": "2021-08-14T09:29:39.252Z",
+                "__v": 1,
+                "updated_by": "61177c3713ff946e39da3bb6",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "611609c113ff946e39d9b6d0",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 2,
+                "name": "Kiều",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.6439547,
+                        10.8354607
+                    ]
+                },
+                "address": "Hẻm 745/117 Quang Trung, Phường 12, Gò Vấp, Hồ Chí Minh",
+                "phoneNumber": "0901922775",
+                "items": [
+                    {
+                        "_id": "6117893813ff946e39da5093",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609c113ff946e39d9b6d1"
+                    },
+                    {
+                        "_id": "6117893813ff946e39da5094",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609c113ff946e39d9b6d2"
+                    },
+                    {
+                        "_id": "6117893813ff946e39da5095",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609c113ff946e39d9b6d3"
+                    },
+                    {
+                        "_id": "6117893813ff946e39da5096",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609c113ff946e39d9b6d4"
+                    },
+                    {
+                        "_id": "6117893813ff946e39da5097",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609c113ff946e39d9b6d5"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:57:21.067Z",
+                "updatedAt": "2021-08-14T09:13:28.565Z",
+                "__v": 1,
+                "updated_by": "61177c5413ff946e39da3bbb",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "611609ae13ff946e39d9b6c5",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2F4831745A-D8D3-4A89-B4C6-5CCCEE13B6DF.jpeg?alt=media&token=dbc44355-f2e3-46cf-a706-d1a7c71e383d",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2FA67FA84C-DA51-41E0-8431-F438A37C63E1.jpeg?alt=media&token=011a9412-cd13-47e1-80aa-1e72348c5b66",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2F74EE0434-6A53-4381-84E0-F2B4E66AE642.jpeg?alt=media&token=e97605e9-a5f0-4db1-8fd0-6de6f80f127e",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2F312AD802-9F12-4EAC-BC3C-93C1A5F2E43D.jpeg?alt=media&token=3ebe7371-ccb7-46fe-93c6-1b1680ed9257",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2F8956591F-D1DD-44BD-A67C-F2E261FABE2E.jpeg?alt=media&token=4d6127b5-ad1f-4b3b-85ad-32f9b9824be9"
+                ],
+                "numParticipants": 784120573,
+                "name": "Bảo Trâm",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.608163613497,
+                        10.7238189829999
+                    ]
+                },
+                "address": "Hẻm 439/27 Hồ Học Lãm, An Lạc, Bình Tân, Hồ Chí Minh",
+                "note": "Bên em là khu trọ thất nghiệp và phong toà hơn 2 tháng nay. Dù mới được gỡ rào phong toả nhưng vì tình hình dịch bệnh cũng không thể mua được đồ ăn. Mong các anh chị mạnh thường quân giúp đỡ các bé và các bác lớn tuổi",
+                "phoneNumber": "0784120573",
+                "items": [
+                    {
+                        "_id": "611798d013ff946e39da746e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609ae13ff946e39d9b6c6"
+                    },
+                    {
+                        "_id": "611798d013ff946e39da746f",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609ae13ff946e39d9b6c7"
+                    },
+                    {
+                        "_id": "611798d013ff946e39da7470",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609ae13ff946e39d9b6c8"
+                    },
+                    {
+                        "_id": "611798d013ff946e39da7471",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609ae13ff946e39d9b6c9"
+                    },
+                    {
+                        "_id": "611798d013ff946e39da7472",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611609ae13ff946e39d9b6ca"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:57:02.432Z",
+                "updatedAt": "2021-08-14T10:20:00.279Z",
+                "__v": 1,
+                "updated_by": "61177c5413ff946e39da3bbb",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "6116096e13ff946e39d9b6be",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 6,
+                "name": "Nguyễn Thị Trúc Linh ",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.706540389,
+                        10.762357461
+                    ]
+                },
+                "address": "38 Hẻm 257 Đoàn Văn Bơ, Phường 13, Quận 4, Hồ Chí Minh",
+                "phoneNumber": "0907073278",
+                "items": [
+                    {
+                        "_id": "61161a2e13ff946e39d9bf26",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116096e13ff946e39d9b6bf"
+                    },
+                    {
+                        "_id": "61161a2e13ff946e39d9bf27",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116096e13ff946e39d9b6c0"
+                    },
+                    {
+                        "_id": "61161a2e13ff946e39d9bf28",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116096e13ff946e39d9b6c1"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:55:58.438Z",
+                "updatedAt": "2021-08-13T07:07:26.319Z",
+                "__v": 1,
+                "updated_by": "61023035662172270ed9aef4",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "6116095d13ff946e39d9b6bb",
+                "showMap": true,
+                "type": "send",
+                "isFinished": true,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "name": "Lê Phan Xuân Định",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.681951717855,
+                        10.7972310187772
+                    ]
+                },
+                "address": "Hẻm 270/2 Phan Đình Phùng, Phường 1, Phú Nhuận, Hồ Chí Minh",
+                "note": "Gọi trước giúp mình để mình sắp xếp. 15 bao gạo, mỗi bao 5kg. ",
+                "phoneNumber": "0909904012",
+                "items": [
+                    {
+                        "_id": "6116168413ff946e39d9bca1",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116095d13ff946e39d9b6bc"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:55:41.270Z",
+                "updatedAt": "2021-08-26T06:37:10.130Z",
+                "__v": 1,
+                "updated_by": "61018697662172270ed9a323",
+                "team": "6110fe2bf743e01e61caefc9",
+                "district": "61026144662172270ed9b7cf",
+                "province": "60ec916bea0e52005626244d"
+            },
+            {
+                "_id": "6116091213ff946e39d9b6b1",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/direct-support%2FB90A3053-2179-460A-9823-6927ED49D641.jpeg?alt=media&token=dbd74063-6741-4d91-9d5f-b42ce6c2ae59",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/direct-support%2F2953507B-5023-4FDD-AE8E-4D11922A6B52.jpeg?alt=media&token=37487817-7689-47e0-a690-278dc605de9b"
+                ],
+                "name": "Trần Thị Như Ý ",
+                "phoneNumber": "0908671267",
+                "items": [
+                    {
+                        "_id": "6116091213ff946e39d9b6b6",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116091213ff946e39d9b6b2"
+                    },
+                    {
+                        "_id": "6116091213ff946e39d9b6b7",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116091213ff946e39d9b6b3"
+                    },
+                    {
+                        "_id": "6116091213ff946e39d9b6b8",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116091213ff946e39d9b6b4"
+                    },
+                    {
+                        "_id": "6116091213ff946e39d9b6b9",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116091213ff946e39d9b6b5"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:54:26.726Z",
+                "updatedAt": "2021-08-13T05:54:26.812Z",
+                "__v": 1,
+                "parent": "61004e22255ead77e9c1d14c",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "611608e613ff946e39d9b6a2",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 1,
+                "name": "Nguyễn Văn Nghĩa",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.66135086,
+                        10.7138217610001
+                    ]
+                },
+                "address": "Block H, Khu Dân Cư Ehomes Nam Sài Gòn, Bình Hưng, Bình Chánh, Hồ Chí Minh",
+                "phoneNumber": "0919956703",
+                "items": [
+                    {
+                        "_id": "6117a17613ff946e39da8396",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611608e613ff946e39d9b6a3"
+                    },
+                    {
+                        "_id": "6117a17613ff946e39da8397",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611608e613ff946e39d9b6a4"
+                    },
+                    {
+                        "_id": "6117a17613ff946e39da8398",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611608e613ff946e39d9b6a5"
+                    },
+                    {
+                        "_id": "6117a17613ff946e39da8399",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611608e613ff946e39d9b6a6"
+                    },
+                    {
+                        "_id": "6117a17613ff946e39da839a",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611608e613ff946e39d9b6a7"
+                    },
+                    {
+                        "_id": "6117a17613ff946e39da839b",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611608e613ff946e39d9b6a8"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:53:42.040Z",
+                "updatedAt": "2021-08-14T10:56:54.334Z",
+                "__v": 1,
+                "updated_by": "61177c3713ff946e39da3bb6",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "611608bc13ff946e39d9b69d",
+                "showMap": true,
+                "type": "send",
+                "isFinished": true,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "name": "Nguyễn thị kim Minh ",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.8135923,
+                        10.8240413
+                    ]
+                },
+                "address": "Hẻm 4 Lò Lu, Trường Thạnh, Thủ Đức, Hồ Chí Minh",
+                "phoneNumber": "0903064512",
+                "items": [
+                    {
+                        "_id": "611629bd13ff946e39d9c5fc",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611608bc13ff946e39d9b69e"
+                    },
+                    {
+                        "_id": "611629bd13ff946e39d9c5fd",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611608bc13ff946e39d9b69f"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:53:00.336Z",
+                "updatedAt": "2021-08-26T06:37:10.131Z",
+                "__v": 1,
+                "updated_by": "61018697662172270ed9a323",
+                "team": "6110fe2bf743e01e61caefc9",
+                "district": "61026183662172270ed9b7d2",
+                "province": "60ec916bea0e52005626244d"
+            },
+            {
+                "_id": "6116089e13ff946e39d9b696",
+                "showMap": false,
+                "type": "direct_support",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/direct-support%2FA88436CC-63A4-432B-89CD-07C5E8F2E521.jpeg?alt=media&token=45c81d83-b749-47ca-90de-09f6b6099e49"
+                ],
+                "name": "Trần Thị Như Ý ",
+                "phoneNumber": "0908671267",
+                "items": [
+                    {
+                        "_id": "6116089e13ff946e39d9b69a",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116089e13ff946e39d9b697"
+                    },
+                    {
+                        "_id": "6116089e13ff946e39d9b69b",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116089e13ff946e39d9b698"
+                    },
+                    {
+                        "_id": "6116089e13ff946e39d9b69c",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116089e13ff946e39d9b699"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:52:30.697Z",
+                "updatedAt": "2021-08-13T05:52:30.754Z",
+                "__v": 1,
+                "parent": "610a9a4208003673b7ce3d6d",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "6116087f13ff946e39d9b68a",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound5112918671875097174.jpg?alt=media&token=2383f746-e2e0-4403-b9ea-6724b71574be"
+                ],
+                "numParticipants": 3,
+                "name": "trần thị nghĩa",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.613724443,
+                        10.777505747
+                    ]
+                },
+                "address": "10 Đường số 10, Bình Hưng Hoà A, Bình Tân, Thành phố Hồ Chí Minh, Vietnam",
+                "note": "cho em xin gạo và sữa .. em có 1 bé 5 tuổi ạ ... em cảm ơn",
+                "phoneNumber": "0794089981",
+                "items": [
+                    {
+                        "_id": "611612c513ff946e39d9ba39",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116087f13ff946e39d9b68b"
+                    },
+                    {
+                        "_id": "611612c513ff946e39d9ba3a",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116087f13ff946e39d9b68c"
+                    },
+                    {
+                        "_id": "611612c513ff946e39d9ba3b",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116087f13ff946e39d9b68d"
+                    },
+                    {
+                        "_id": "611612c513ff946e39d9ba3c",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116087f13ff946e39d9b68e"
+                    },
+                    {
+                        "_id": "611612c513ff946e39d9ba3d",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116087f13ff946e39d9b68f"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:51:59.203Z",
+                "updatedAt": "2021-08-13T06:35:49.181Z",
+                "__v": 1,
+                "updated_by": "6107e714baba9057a53999ee",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "6116086b13ff946e39d9b67d",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2F20210804_191656.jpg?alt=media&token=39c8131e-b57b-4617-9951-d1917fb5427e",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Fbeauty_20200506194228.jpg?alt=media&token=eb8c7a61-d60f-4483-aa2d-27a6b711ede2"
+                ],
+                "numParticipants": 4,
+                "name": "Nguyễn thị hải",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        109.202235646268,
+                        12.2024644798844
+                    ]
+                },
+                "address": "Võ Thị Sáu, Vĩnh Trường, Nha Trang, Khánh Hòa",
+                "note": "1 lần nữa e đăng bài này lên cầu xin các nhà hảo tâm và cách mạnh thường quân giúp đỡ cho gđ e với ạ...chồng e là thu nhập chính 2 vc e đã có 2 bé 1 bé đc 4t và 1 bé mới sanh đc 3 tháng 21 ngày e mắc chăm con nhỏ nên ko đi làm phụ chồng e đc....bt 2 vc e đã khó khăng rồi nay dịch bùng phát lên chông mất việt k đi làm đc nên giờ khó khăng lại chồng chất thêm hồi bữa e đc 1 a mạnh thường quân hổ trợ cho gđ e 1tr e dùng tiền đó mua tã sữa cho 2 bé nhà e với mua 5kg gạo và rau thịt để trữ trong nhà do dịch bùng phát rau thịt cũng leo thang lên giá vs số tiền đó ts nay đã nhanh chóng cạn kiệt...giờ tiền điện nhà e đã tới hạn đóng r thì vc e k còn tiền để đóng rau và thịt e mua trữ sẳng ts nay đã gần cạn kiệt r nên hnay e đăng bài lên lần nữa để kêu gọi các nhà hảo tâm và các mạnh thường quân giúp đỡ cho gđ e vượt qua gian đoạn khó khăng trong mùa dịch này ạ.....",
+                "phoneNumber": "0702309924",
+                "items": [
+                    {
+                        "_id": "6117d0a713ff946e39daad1e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116086b13ff946e39d9b67e"
+                    },
+                    {
+                        "_id": "6117d0a713ff946e39daad1f",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116086b13ff946e39d9b67f"
+                    },
+                    {
+                        "_id": "6117d0a713ff946e39daad20",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116086b13ff946e39d9b680"
+                    },
+                    {
+                        "_id": "6117d0a713ff946e39daad21",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116086b13ff946e39d9b681"
+                    },
+                    {
+                        "_id": "6117d0a713ff946e39daad22",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116086b13ff946e39d9b682"
+                    },
+                    {
+                        "_id": "6117d0a713ff946e39daad23",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116086b13ff946e39d9b683"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:51:39.315Z",
+                "updatedAt": "2021-08-14T14:18:15.488Z",
+                "__v": 1,
+                "updated_by": "610e0dff8969f151c6518f67",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "6116085f13ff946e39d9b676",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound2271923837981901427.jpg?alt=media&token=7c299b95-9984-4fc4-af05-fe9d209633d0"
+                ],
+                "numParticipants": 71,
+                "name": "Nguyễn thị phương ",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.5859049,
+                        10.8025935
+                    ]
+                },
+                "address": "Hẻm 85/29 Bình Thành, Bình Hưng Hòa B, Bình Tân, Hồ Chí Minh",
+                "note": "Ơ đây có 71 phòng trọ thất nghiệp gần 2tháng nay .chúng e cần hỗ trợ rau, sữa và mì gói. Ơ đây e bé rất nhiều và cả người già, bà bầu nữa. Nhà e có 3 bé nhỏ. E nhờ a c mạnh thường quân giúp đỡ cho gđ e và mn ơ khu trọ ",
+                "phoneNumber": "0947482324",
+                "items": [
+                    {
+                        "_id": "61178d9913ff946e39da5c0b",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116085f13ff946e39d9b677"
+                    },
+                    {
+                        "_id": "61178d9913ff946e39da5c0c",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116085f13ff946e39d9b678"
+                    },
+                    {
+                        "_id": "61178d9913ff946e39da5c0d",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116085f13ff946e39d9b679"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:51:27.848Z",
+                "updatedAt": "2021-08-14T09:32:09.157Z",
+                "__v": 1,
+                "updated_by": "60f9934fdb3d04000dae0635",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "6116082f13ff946e39d9b671",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Fimage.jpg?alt=media&token=117f7b96-7fc4-47e9-860c-c6d4841202d6"
+                ],
+                "numParticipants": 2,
+                "name": "Trần Thị Thanh Tuyền ",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.7286103395961,
+                        10.744489122124852
+                    ]
+                },
+                "address": "11 Hẻm 458 Huỳnh Tấn Phát, Bình Thuận, Quận 7, Hồ Chí Minh",
+                "note": "Em có bầu sắp sinh, chồng thất nghiệp do ảnh hưởng dịch, nhà còn 1 bé 9 tuổi. Do phải để dành tiền đi bv sinh em bé và sữa cho em bé nhỏ nên việc ăn uống rất khó khăn. Rất mong MTQ giúp đỡ lương thực phần nào ạ! Em chân thành biết ơn",
+                "phoneNumber": "0988008218",
+                "items": [
+                    {
+                        "_id": "6116184913ff946e39d9bd82",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116082f13ff946e39d9b672"
+                    },
+                    {
+                        "_id": "6116184913ff946e39d9bd83",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6116082f13ff946e39d9b673"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:50:39.564Z",
+                "updatedAt": "2021-08-13T06:59:21.840Z",
+                "__v": 1,
+                "updated_by": "61023035662172270ed9aef4",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "611607ca13ff946e39d9b668",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 2,
+                "name": "Lê Thị Thanh Vân",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.797920144773,
+                        10.8921494918866
+                    ]
+                },
+                "address": "Thống Nhất, Đông Hòa, Dĩ An, Bình Dương",
+                "phoneNumber": "0327306399",
+                "items": [
+                    {
+                        "_id": "61160ec013ff946e39d9b85f",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611607ca13ff946e39d9b669"
+                    },
+                    {
+                        "_id": "61160ec013ff946e39d9b860",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611607ca13ff946e39d9b66a"
+                    },
+                    {
+                        "_id": "61160ec013ff946e39d9b861",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611607ca13ff946e39d9b66b"
+                    },
+                    {
+                        "_id": "61160ec013ff946e39d9b862",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611607ca13ff946e39d9b66c"
+                    }
+                ],
+                "createdAt": "2021-08-13T05:48:58.098Z",
+                "updatedAt": "2021-08-13T06:18:40.911Z",
+                "__v": 1,
+                "updated_by": "6107e714baba9057a53999ee",
+                "team": "6110fe2bf743e01e61caefc9"
+            }
+        ],
+        "4": [
+            {
+                "_id": "610cd0488969f151c6515e4a",
+                "showMap": true,
+                "type": "direct_support",
+                "isFinished": true,
+                "cost_type": null,
+                "priority": null,
+                "status": "APPROVED",
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/direct-support%2Fviber_image_2021-08-06_12-52-40-406.jpg?alt=media&token=7e910868-0d3b-43b3-99c6-b4b6b8645ce2",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/direct-support%2Fviber_image_2021-08-06_12-55-21-225.jpg?alt=media&token=484bb606-b5e6-40c4-863e-83e841e53a06"
+                ],
+                "name": "Nguyet",
+                "note": "2kg thịt gà\n",
+                "phoneNumber": "0982767908",
+                "items": [
+                    {
+                        "_id": "61126ff413ff946e39d8d34e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cd0488969f151c6515e4b"
+                    },
+                    {
+                        "_id": "61126ff413ff946e39d8d34f",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cd0488969f151c6515e4c"
+                    },
+                    {
+                        "_id": "61126ff413ff946e39d8d350",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61126ff413ff946e39d8d34d"
+                    }
+                ],
+                "createdAt": "2021-08-06T06:01:44.346Z",
+                "updatedAt": "2021-08-10T12:24:20.500Z",
+                "__v": 1,
+                "parent": "610541dd43bc5e0728a7d154",
+                "team": "6110fe2bf743e01e61caefc9",
+                "updated_by": "6107e714baba9057a53999ee"
+            },
+            {
+                "_id": "610cd0318969f151c6515e43",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 2,
+                "name": "Nguyễn Minh Trúc",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.71267395,
+                        10.812627734
+                    ]
+                },
+                "address": "92 Quốc Lộ 13 Phường 26, Bình Thạnh, Hồ Chí Minh",
+                "phoneNumber": "0902020417",
+                "items": [
+                    {
+                        "_id": "6117858113ff946e39da470e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cd0318969f151c6515e44"
+                    },
+                    {
+                        "_id": "6117858113ff946e39da470f",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cd0318969f151c6515e45"
+                    },
+                    {
+                        "_id": "6117858113ff946e39da4710",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cd0318969f151c6515e46"
+                    }
+                ],
+                "createdAt": "2021-08-06T06:01:21.433Z",
+                "updatedAt": "2021-08-14T08:57:37.544Z",
+                "__v": 1,
+                "team": "6110fe2bf743e01e61caefc9",
+                "updated_by": "61177c5413ff946e39da3bbb"
+            },
+            {
+                "_id": "610ccfa68969f151c6515e33",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 1,
+                "name": "Lâm Thị Ngọc Điệp ",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.783464721,
+                        10.80998641
+                    ]
+                },
+                "address": "Lucy casa Khu dân cư Nam Long, 52 Đường D2A, Phước Long B, Thủ Đức, Hồ Chí Minh",
+                "note": "Em tên Ngọc Điệp.  Là SV năm nhất của trường cao đẳng sư phạm tw thành phố Hồ Chí Minh.  \nDo hoàn cảnh gia đình khó khăn nên  em vừa đi học vừa đi làm thêm để kiếm thêm tự lo cho bản thân giúp ba mẹ ở  quê đỡ  vất vả lo  cho  em.  \nViệc làm thêm của em cũng đóng cửa hơn 2 tháng nay.  Với số tiền lương  tháng 6 e đã cố gắng tiết kiệm và ăn đến bây giờ. Hiện tại  e ở  một mình tại cửa hàng em làm.  Do Chủ em cũng bị phong tỏa,  cũng không ra đường được nhiều.  Nên kh giúp được cho em.  \nỞ  quê cũng khó khăn cũng không có khả năng cứu trợ cho em.  Với một phần em cũng kh dám nói với  gia đình tình hình hiện tại của em.  \nKhu e ở  thì cũng kh có ai hổ trợ được nên em kh xin được.  Nay em thấy có app SOSmap em rất mừng ❤\nEM THẬT SỰ RẤT CẦN GIÚP ĐỠ VÌ HIỆN TẠI BÂY GIỜ EM RẤT BẤT LỰC VÌ VỀ QUÊ KHÔNG ĐƯỢC Ở LẠI CŨNG KHÓ KHĂN :((( \n❤ Dù cuộc sống sài gòn có vất vả khó khăn như thế nào thì mọi người cũng luôn giúp đỡ.  \nEm xin chân thành cảm ơn đến anh  chị  cô chú và tất cả mọi người nhiều lắm ạh.  \nCHÚC TẤT CẢ MỌI NGƯỜI CÓ SỨC KHỎE VÀ NIỀM TIN THẮNG DỊCH ❤❤",
+                "phoneNumber": "0941627594",
+                "items": [
+                    {
+                        "_id": "61178b5413ff946e39da5659",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccfa68969f151c6515e34"
+                    },
+                    {
+                        "_id": "61178b5413ff946e39da565a",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccfa68969f151c6515e35"
+                    },
+                    {
+                        "_id": "61178b5413ff946e39da565b",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccfa68969f151c6515e36"
+                    },
+                    {
+                        "_id": "61178b5413ff946e39da565c",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccfa68969f151c6515e37"
+                    },
+                    {
+                        "_id": "61178b5413ff946e39da565d",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccfa68969f151c6515e38"
+                    },
+                    {
+                        "_id": "61178b5413ff946e39da565e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccfa68969f151c6515e39"
+                    },
+                    {
+                        "_id": "61178b5413ff946e39da565f",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccfa68969f151c6515e3a"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:59:02.676Z",
+                "updatedAt": "2021-08-14T09:22:28.421Z",
+                "__v": 1,
+                "team": "6110fe2bf743e01e61caefc9",
+                "updated_by": "60fce7e15996cf00f1f205df"
+            },
+            {
+                "_id": "610ccfa18969f151c6515e26",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 2,
+                "name": "Huỳnh thi phuong vu",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.572767980446,
+                        10.8329195633412
+                    ]
+                },
+                "address": "Đường E2 Vĩnh Lộc A, Bình Chánh, Hồ Chí Minh",
+                "phoneNumber": "0937649213",
+                "items": [
+                    {
+                        "_id": "610cdd418969f151c651617c",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccfa18969f151c6515e27"
+                    },
+                    {
+                        "_id": "610cdd418969f151c651617d",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccfa18969f151c6515e28"
+                    },
+                    {
+                        "_id": "610cdd418969f151c651617e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccfa18969f151c6515e29"
+                    },
+                    {
+                        "_id": "610cdd418969f151c651617f",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccfa18969f151c6515e2a"
+                    },
+                    {
+                        "_id": "610cdd418969f151c6516180",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccfa18969f151c6515e2b"
+                    },
+                    {
+                        "_id": "610cdd418969f151c6516181",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccfa18969f151c6515e2c"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:58:57.605Z",
+                "updatedAt": "2021-08-06T06:57:05.659Z",
+                "__v": 1,
+                "updated_by": "6107e714baba9057a53999ee",
+                "team": "6110fe2bf743e01e61caefc9"
+            },
+            {
+                "_id": "610ccf808969f151c6515e17",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": true,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 4,
+                "name": "Hoàng Trà",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        105.851955285914,
+                        21.0036168588553
+                    ]
+                },
+                "address": "Ngõ Trại Găng, Thanh Nhàn, Hai Bà Trưng, Hà Nội",
+                "note": "Mình có 2 con nhỏ. 2vc đều phải nghỉ làm do giãn cách xh. Nhà đi thuê nên còn khó khăn. Mình chỉ xin những nhu yếu phẩm cần thiết để duy trì qua giai đoạn này. Xin cảm ơn. ",
+                "phoneNumber": "0936324906",
+                "items": [
+                    {
+                        "_id": "61139b4c13ff946e39d9185d",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61112a1313ff946e39d891f3"
+                    },
+                    {
+                        "_id": "61139b4c13ff946e39d9185e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61112a1313ff946e39d891f4"
+                    },
+                    {
+                        "_id": "61139b4c13ff946e39d9185f",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61112a1313ff946e39d891f5"
+                    },
+                    {
+                        "_id": "61139b4c13ff946e39d91860",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61112a1313ff946e39d891f6"
+                    },
+                    {
+                        "_id": "61139b4c13ff946e39d91861",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61112a1313ff946e39d891f7"
+                    },
+                    {
+                        "_id": "61139b4c13ff946e39d91862",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61112a1313ff946e39d891f8"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:58:24.999Z",
+                "updatedAt": "2021-08-11T09:41:33.020Z",
+                "__v": 2,
+                "team": "610d37898969f151c6517a44",
+                "isShared": false,
+                "assignee": null,
+                "updated_by": "6107e714baba9057a53999ee"
+            },
+            {
+                "_id": "610ccf6b8969f151c6515e0c",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": "NORMAL",
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 3,
+                "name": "Vũ Thị Hiếu ",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.645443534,
+                        10.808905517
+                    ]
+                },
+                "address": "2 Hẻm 56/5 Văn Chung, Phường 13, Tân Bình, Hồ Chí Minh",
+                "note": "Thất nghiệp 2 tháng nuôi con nhỏ 3 tuổi \n Đã gọi xn ( đống ý đi nhận )",
+                "phoneNumber": "0989273929",
+                "items": [
+                    {
+                        "_id": "61173ee313ff946e39da1dbd",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61173ee313ff946e39da1db8"
+                    },
+                    {
+                        "_id": "61173ee313ff946e39da1dbe",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61173ee313ff946e39da1db9"
+                    },
+                    {
+                        "_id": "61173ee313ff946e39da1dbf",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61173ee313ff946e39da1dba"
+                    },
+                    {
+                        "_id": "61173ee313ff946e39da1dc0",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61173ee313ff946e39da1dbb"
+                    },
+                    {
+                        "_id": "61173ee313ff946e39da1dc1",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61173ee313ff946e39da1dbc"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:58:03.566Z",
+                "updatedAt": "2021-08-20T05:32:49.995Z",
+                "__v": 2,
+                "updated_by": "60f29ed81ec9f000d9055e1a",
+                "team": "6110fe2bf743e01e61caefc9",
+                "isShared": false,
+                "assignee": null
+            },
+            {
+                "_id": "610cced08969f151c6515e00",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 5,
+                "name": "Trần văn thành ",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.345155061,
+                        10.3139780650001
+                    ]
+                },
+                "address": "ấp 5 An Khánh, Châu Thành, Bến Tre",
+                "note": "Mong dc các nhà hảo tâm giúp đỡ minh \nCảm ơn tất cả mọi người \nMột miếng khi đói bằng một gói khi no \nStk e ạh moi người giúp cho e chuc ah \n1011000644300 Trần văn thành vietcombank chi nhánh Phú quoc ah ",
+                "phoneNumber": "0388898665",
+                "items": [
+                    {
+                        "_id": "6117bb2113ff946e39da974d",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cced08969f151c6515e01"
+                    },
+                    {
+                        "_id": "6117bb2113ff946e39da974e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cced08969f151c6515e02"
+                    },
+                    {
+                        "_id": "6117bb2113ff946e39da974f",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cced08969f151c6515e03"
+                    },
+                    {
+                        "_id": "6117bb2113ff946e39da9750",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cced08969f151c6515e04"
+                    },
+                    {
+                        "_id": "6117bb2113ff946e39da9751",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cced08969f151c6515e05"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:55:28.624Z",
+                "updatedAt": "2021-08-14T12:46:25.116Z",
+                "__v": 1,
+                "team": "6110fe2bf743e01e61caefc9",
+                "updated_by": "61177c5413ff946e39da3bbb"
+            },
+            {
+                "_id": "610cceca8969f151c6515df9",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 2,
+                "name": "Nguyễn Thị Mọng kha",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.677149131,
+                        10.728596558
+                    ]
+                },
+                "address": "C4 Phạm Hùng Bình Hưng, Bình Chánh, Hồ Chí Minh",
+                "note": "Hiện tại e đã mất việc hơn 2 tháng  kg có thu nhập và ở trọ nên kg còn tiền để mua lương thực mong được sự giúp đỡ",
+                "phoneNumber": "0773124460",
+                "items": [
+                    {
+                        "_id": "6117c52b13ff946e39da9ff3",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cceca8969f151c6515dfa"
+                    },
+                    {
+                        "_id": "6117c52b13ff946e39da9ff4",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cceca8969f151c6515dfb"
+                    },
+                    {
+                        "_id": "6117c52b13ff946e39da9ff5",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cceca8969f151c6515dfc"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:55:22.829Z",
+                "updatedAt": "2021-08-14T13:29:15.868Z",
+                "__v": 1,
+                "team": "6110fe2bf743e01e61caefc9",
+                "updated_by": "61177c3713ff946e39da3bb6"
+            },
+            {
+                "_id": "610cce718969f151c6515df1",
+                "showMap": true,
+                "type": "send",
+                "isFinished": true,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "name": "Mai Chi",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.69979814501085,
+                        10.754351443188417
+                    ]
+                },
+                "address": "Lô B4 - Chung cư Vĩnh Hội P3, Đường Số 10A, Phường 3, Quận 4, Hồ Chí Minh",
+                "phoneNumber": "0846200895",
+                "items": [
+                    {
+                        "_id": "611278a013ff946e39d8d609",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cce718969f151c6515df2"
+                    },
+                    {
+                        "_id": "611278a013ff946e39d8d60a",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cce718969f151c6515df3"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:53:53.970Z",
+                "updatedAt": "2021-08-26T06:24:08.932Z",
+                "__v": 1,
+                "team": "6110fe2bf743e01e61caefc9",
+                "updated_by": "60f29ed81ec9f000d9055e1a",
+                "district": "6100419c918c8036b2cfcc9e",
+                "province": "60ec916bea0e52005626244d"
+            },
+            {
+                "_id": "610cce588969f151c6515dec",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": "NORMAL",
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 2,
+                "name": "Đào",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.672770117,
+                        10.8511043130001
+                    ]
+                },
+                "address": "Quán cafe 183, 183 Hẻm 736 Lê Đức Thọ, Phường 15, Gò Vấp, Hồ Chí Minh",
+                "phoneNumber": "0978684922",
+                "items": [
+                    {
+                        "_id": "6114d13e13ff946e39d9688a",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6114d13e13ff946e39d96888"
+                    },
+                    {
+                        "_id": "6114d13e13ff946e39d9688b",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6114d13e13ff946e39d96889"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:53:28.172Z",
+                "updatedAt": "2021-08-12T07:43:58.930Z",
+                "__v": 2,
+                "updated_by": "6107e714baba9057a53999ee",
+                "team": "61004a34918c8036b2cfccb6",
+                "isShared": false,
+                "assignee": null
+            },
+            {
+                "_id": "610cce4b8969f151c6515de5",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 60,
+                "name": "Thái Thị Bích Lê ",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.593769287,
+                        10.762892403
+                    ]
+                },
+                "address": "302/94 Lê Đình Cẩn Tân Tạo, Bình Tân, Hồ Chí Minh",
+                "note": "Mong sẽ hữu duyên nhận được sự giúp đỡ của nhóm mình ạ .Mình mong sẽ được nhóm hộ trợ 60 phần quà để hỗ trợ những công nhân họ thất nghiệp hơn 2 tháng nay & những trẻ em nhỏ nữa ạ .\nĐịa chỉ : 302/94C Đ Lê Đình Cẩn Phường Tân Tạo Quận Bình Tân \nSđt 0708223337 Mong nhận được sự giúp đỡ của nhóm giúp cho họ sống quá ngày ạ",
+                "phoneNumber": "0708223337",
+                "items": [
+                    {
+                        "_id": "61179af413ff946e39da7867",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cce4b8969f151c6515de6"
+                    },
+                    {
+                        "_id": "61179af413ff946e39da7868",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cce4b8969f151c6515de7"
+                    },
+                    {
+                        "_id": "61179af413ff946e39da7869",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610cce4b8969f151c6515de8"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:53:15.889Z",
+                "updatedAt": "2021-08-14T10:29:09.056Z",
+                "__v": 1,
+                "team": "6110fe2bf743e01e61caefc9",
+                "updated_by": "61177c3713ff946e39da3bb6"
+            },
+            {
+                "_id": "610ccd4b8969f151c6515db8",
+                "showMap": true,
+                "type": "send",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": "NORMAL",
+                "status": "NEW",
+                "imageUrls": [],
+                "name": "Phung Phuong",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        105.521063141,
+                        21.003872189
+                    ]
+                },
+                "address": "Xã Thạch Hòa, Thạch Thất, Hà Nội",
+                "phoneNumber": "0983681192",
+                "items": [
+                    {
+                        "_id": "611d4174fadd5e47792f1d7b",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "611b5c70fadd5e47792e2488"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:48:59.576Z",
+                "updatedAt": "2021-08-26T06:24:08.889Z",
+                "__v": 2,
+                "updated_by": "61018697662172270ed9a323",
+                "team": null,
+                "isAgreePublicPhoneNumber": false,
+                "isShared": false,
+                "assignee": null,
+                "district": "610faf97f743e01e61cab83d",
+                "province": "60ec917bea0e52005626244e"
+            },
+            {
+                "_id": "610ccceb8969f151c6515da9",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": "NORMAL",
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 5,
+                "name": "Trần đức nam",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.645975101,
+                        10.809292897
+                    ]
+                },
+                "address": "34 Hẻm 166 Trần Văn Dư, Phường 13, Tân Bình, Hồ Chí Minh",
+                "note": "  Mong m.n hổ trơ . Hiện gio đang mất viêc đã hon 2 tháng nay . Tiền nhà ngta không giảm, cũng k cho, hiện giơ bên e dang có 5phong đang gap khó khan ,, mong m.n hổ trơ mùa dịch nay ",
+                "phoneNumber": "0989882413",
+                "items": [
+                    {
+                        "_id": "6117407c13ff946e39da1f91",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6117407c13ff946e39da1f8c"
+                    },
+                    {
+                        "_id": "6117407c13ff946e39da1f92",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6117407c13ff946e39da1f8d"
+                    },
+                    {
+                        "_id": "6117407c13ff946e39da1f93",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6117407c13ff946e39da1f8e"
+                    },
+                    {
+                        "_id": "6117407c13ff946e39da1f94",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6117407c13ff946e39da1f8f"
+                    },
+                    {
+                        "_id": "6117407c13ff946e39da1f95",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6117407c13ff946e39da1f90"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:47:23.563Z",
+                "updatedAt": "2021-08-20T05:32:49.977Z",
+                "__v": 3,
+                "updated_by": "6107e714baba9057a53999ee",
+                "team": "6110fe2bf743e01e61caefc9",
+                "isShared": false,
+                "assignee": null
+            },
+            {
+                "_id": "610ccca78969f151c6515d98",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": "NORMAL",
+                "status": "NEW",
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound7370567973651680450.jpg?alt=media&token=62b6afad-0b6c-4d85-a3ca-2e53f01d0661"
+                ],
+                "numParticipants": 375761524,
+                "name": "Nguyễn thị ngoan",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        105.718215013,
+                        20.730513296
+                    ]
+                },
+                "address": "Tấn mobile, Đôi 4, Lê Thanh, Mỹ Đức, Hà Nội",
+                "note": "Tôi cần dc hỗ trợ vì tôi khó khăn",
+                "phoneNumber": "0375761524",
+                "items": [
+                    {
+                        "_id": "6123aac411dfee2380d77e61",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6123aac411dfee2380d77e60"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:46:15.069Z",
+                "updatedAt": "2021-08-23T14:03:48.774Z",
+                "__v": 4,
+                "team": "6123547f11dfee2380d750a5",
+                "updated_by": "6107e714baba9057a53999ee",
+                "isAgreePublicPhoneNumber": false,
+                "isShared": false,
+                "assignee": null
+            },
+            {
+                "_id": "610ccc988969f151c6515d89",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": true,
+                "cost_type": null,
+                "priority": "NORMAL",
+                "status": "NEW",
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Fimage.jpg?alt=media&token=a79b902d-0aa6-486f-aa29-ecf101dd700e"
+                ],
+                "numParticipants": 3,
+                "name": "Kim Châu",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.64285212840967,
+                        10.795610027182462
+                    ]
+                },
+                "address": "2 Hẻm 72 Nguyễn Hồng Đào, Phường 14, Tân Bình, Hồ Chí Minh",
+                "note": "Vợ chồng em thất nghiệp 4 tháng nay. Tình hình rất khó khăn. Không còn tiền sử dụng mua đồ ăn và đồ dùng cần thiết không còn tiền đóng tiền phòng. Gạo và đồ ăn đã hết.\nKhu thì bị phong tỏa không ra ngoài được mong được giúp đỡ em xin cảm ơn.\nCầu xin mọi người giúp đỡ em không còn gì nữa.",
+                "phoneNumber": "0962480749",
+                "items": [
+                    {
+                        "_id": "6124b7a4acfddf10cac4d996",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61173dae13ff946e39da1c6d"
+                    },
+                    {
+                        "_id": "6124b7a4acfddf10cac4d997",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61173dae13ff946e39da1c6e"
+                    },
+                    {
+                        "_id": "6124b7a4acfddf10cac4d998",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61173dae13ff946e39da1c6f"
+                    },
+                    {
+                        "_id": "6124b7a4acfddf10cac4d999",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61173dae13ff946e39da1c70"
+                    },
+                    {
+                        "_id": "6124b7a4acfddf10cac4d99a",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61173dae13ff946e39da1c71"
+                    },
+                    {
+                        "_id": "6124b7a4acfddf10cac4d99b",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "61173dae13ff946e39da1c72"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:46:00.542Z",
+                "updatedAt": "2021-08-24T09:11:00.505Z",
+                "__v": 2,
+                "team": "6110fe2bf743e01e61caefc9",
+                "updated_by": "6107e714baba9057a53999ee",
+                "isShared": false,
+                "assignee": null,
+                "isAgreePublicPhoneNumber": false
+            },
+            {
+                "_id": "610ccc808969f151c6515d78",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": true,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2FIMG_UPLOAD_20210806_123530.jpg?alt=media&token=93a11521-4093-467e-bc75-526466ef3c19"
+                ],
+                "numParticipants": 2,
+                "name": "Chi",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.716684792,
+                        11.0035955870001
+                    ]
+                },
+                "address": "3 Đường Huyện 417 Tân Phước Khánh, Tân Uyên, Bình Dương",
+                "note": " Hiện  tai công việc cua co la bán  ve số  dao nhưng do dịch  nên k  đi bán dc ,cô  lại bị méc  kẹt ơ  bình  dương k ve quê  được   ,gần  2 thang nay chỗ  cô  ơ  bi cách ly, song  hết  cách  ly thì  lại  giãn  cách xã  hội đến  giờ   tiền  va thực  phẩm cũng  hết  ,do giãn  cách  nên không thể  đi làm  đc. Rất mong mạnh thường quân  có  thể  giúp  đỡ ",
+                "phoneNumber": "0343332695",
+                "items": [
+                    {
+                        "_id": "611d08a5fadd5e47792f01d7",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccc808969f151c6515d79"
+                    },
+                    {
+                        "_id": "611d08a5fadd5e47792f01d8",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccc808969f151c6515d7a"
+                    },
+                    {
+                        "_id": "611d08a5fadd5e47792f01d9",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccc808969f151c6515d7b"
+                    },
+                    {
+                        "_id": "611d08a5fadd5e47792f01da",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccc808969f151c6515d7c"
+                    },
+                    {
+                        "_id": "611d08a5fadd5e47792f01db",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccc808969f151c6515d7d"
+                    },
+                    {
+                        "_id": "611d08a5fadd5e47792f01dc",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccc808969f151c6515d7e"
+                    },
+                    {
+                        "_id": "611d08a5fadd5e47792f01dd",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccc808969f151c6515d7f"
+                    },
+                    {
+                        "_id": "611d08a5fadd5e47792f01de",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccc808969f151c6515d80"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:45:36.405Z",
+                "updatedAt": "2021-08-18T13:18:30.028Z",
+                "__v": 1,
+                "updated_by": "6107e714baba9057a53999ee",
+                "team": "6110fe2bf743e01e61caefc9",
+                "isAgreePublicPhoneNumber": false
+            },
+            {
+                "_id": "610ccc578969f151c6515d69",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": true,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound741295749.jpg?alt=media&token=4f9a7f05-e3e8-4ba2-ac94-307204c2d774",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2Finbound535235006.jpg?alt=media&token=e0cb0154-295e-42c4-b0cf-f5f3e5ccd41c"
+                ],
+                "numParticipants": 1,
+                "name": "Lâm Thị Ngọc Điệp ",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.783464721,
+                        10.80998641
+                    ]
+                },
+                "address": "Lucy casa, Khu dân cư Nam Long, 52 Đường D2A, Phước Long B, Thủ Đức, Hồ Chí Minh",
+                "note": "Em tên Ngọc Điệp.  Là SV năm nhất của trường cao đẳng sư phạm tw thành phố Hồ Chí Minh.  \nDo hoàn cảnh gia đình khó khăn nên  em vừa đi học vừa đi làm thêm để kiếm thêm tự lo cho bản thân giúp ba mẹ ở  quê đỡ  vất vả lo  cho  em.  \nViệc làm thêm của em cũng đóng cửa hơn 2 tháng nay.  Với số tiền lương  tháng 6 e đã cố gắng tiết kiệm và ăn đến bây giờ. Hiện tại  e ở  một mình tại cửa hàng em làm.  Do Chủ em cũng bị phong tỏa,  cũng không ra đường được nhiều.  Nên kh giúp được cho em.  \nỞ  quê cũng khó khăn cũng không có khả năng cứu trợ cho em.  Với một phần em cũng kh dám nói với  gia đình tình hình hiện tại của em.  \nKhu e ở  thì cũng kh có ai hổ trợ được nên em kh xin được.  Nay em thấy có app SOSmap em rất mừng ❤\nEM THẬT SỰ RẤT CẦN GIÚP ĐỠ VÌ HIỆN TẠI BÂY GIỜ EM RẤT BẤT LỰC VÌ VỀ QUÊ KHÔNG ĐƯỢC Ở LẠI CŨNG KHÓ KHĂN :((( \n❤ Dù cuộc sống sài gòn có vất vả khó khăn như thế nào thì mọi người cũng luôn giúp đỡ.  \nEm xin chân thành cảm ơn đến anh  chị  cô chú và tất cả mọi người nhiều lắm ạh.  \nCHÚC TẤT CẢ MỌI NGƯỜI CÓ SỨC KHỎE VÀ NIỀM TIN THẮNG DỊCH ❤❤",
+                "phoneNumber": "0522899477",
+                "items": [
+                    {
+                        "_id": "611d1dfcfadd5e47792f0e39",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6111ffe513ff946e39d8aadf"
+                    },
+                    {
+                        "_id": "611d1dfcfadd5e47792f0e3a",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6111ffe513ff946e39d8aae0"
+                    },
+                    {
+                        "_id": "611d1dfcfadd5e47792f0e3b",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6111ffe513ff946e39d8aae1"
+                    },
+                    {
+                        "_id": "611d1dfcfadd5e47792f0e3c",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6111ffe513ff946e39d8aae2"
+                    },
+                    {
+                        "_id": "611d1dfcfadd5e47792f0e3d",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6111ffe513ff946e39d8aae3"
+                    },
+                    {
+                        "_id": "611d1dfcfadd5e47792f0e3e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "6111ffe513ff946e39d8aae4"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:44:55.421Z",
+                "updatedAt": "2021-08-18T14:49:32.516Z",
+                "__v": 2,
+                "updated_by": "6107e714baba9057a53999ee",
+                "team": "6110e540f743e01e61cae82d",
+                "isShared": false,
+                "assignee": null,
+                "isAgreePublicPhoneNumber": false
+            },
+            {
+                "_id": "610ccb088969f151c6515d5e",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2FFB_IMG_1628003296578.jpg?alt=media&token=2012d617-0cac-4682-b36c-ff2726c7a4a4",
+                    "https://firebasestorage.googleapis.com/v0/b/keen-proton-320309.appspot.com/o/iot-farm%2Fstorage%2FFB_IMG_1628003298559.jpg?alt=media&token=fd01256c-7cfa-4c93-a5d1-ccd7af1ab4ed"
+                ],
+                "numParticipants": 6,
+                "name": "Dương Thị Lan",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.392229202,
+                        21.3101762270001
+                    ]
+                },
+                "address": "Huyện Lục Nam Tỉnh Bắc Giang",
+                "note": "Xin ủng hộ người có hoàn cảnh",
+                "phoneNumber": "0335605600",
+                "items": [
+                    {
+                        "_id": "61177f3313ff946e39da3e03",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccb088969f151c6515d5f"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:39:20.179Z",
+                "updatedAt": "2021-08-14T08:30:43.645Z",
+                "__v": 1,
+                "team": "6110fe2bf743e01e61caefc9",
+                "updated_by": "60fce7e15996cf00f1f205df"
+            },
+            {
+                "_id": "610ccae78969f151c6515d51",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 1,
+                "name": "Lam Kieu",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.714806418322,
+                        10.8144091421417
+                    ]
+                },
+                "address": "Hẻm 765/71 Xô Viết Nghệ Tĩnh Phường 26, Bình Thạnh, Hồ Chí Minh",
+                "note": "Địa chỉ cụ thể: 765/61 Xô viết nghệ tĩnh, p26, quận Bình Thạnh.",
+                "phoneNumber": "0787854499",
+                "items": [
+                    {
+                        "_id": "611786e113ff946e39da4a2e",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccae78969f151c6515d52"
+                    },
+                    {
+                        "_id": "611786e113ff946e39da4a2f",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccae78969f151c6515d53"
+                    },
+                    {
+                        "_id": "611786e113ff946e39da4a30",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccae78969f151c6515d54"
+                    },
+                    {
+                        "_id": "611786e113ff946e39da4a31",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccae78969f151c6515d55"
+                    },
+                    {
+                        "_id": "611786e113ff946e39da4a32",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccae78969f151c6515d56"
+                    },
+                    {
+                        "_id": "611786e113ff946e39da4a33",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccae78969f151c6515d57"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:38:47.367Z",
+                "updatedAt": "2021-08-14T09:03:29.772Z",
+                "__v": 1,
+                "team": "6110fe2bf743e01e61caefc9",
+                "updated_by": "61177c5413ff946e39da3bbb"
+            },
+            {
+                "_id": "610ccac88969f151c6515d40",
+                "showMap": true,
+                "type": "receive",
+                "isFinished": false,
+                "cost_type": null,
+                "priority": null,
+                "status": "NEW",
+                "imageUrls": [],
+                "numParticipants": 3,
+                "name": "Thái Thị Liển",
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        106.769961786,
+                        10.8188441030001
+                    ]
+                },
+                "address": "144 Đường Số 3 Phước Bình, Thủ Đức, Hồ Chí Minh",
+                "note": "tình hình dịch khó khăn, không có thu nhập, nếu được giúp đỡ gia đình xin cám ơn",
+                "phoneNumber": "0384181612",
+                "items": [
+                    {
+                        "_id": "6117bedd13ff946e39da9af3",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccac88969f151c6515d41"
+                    },
+                    {
+                        "_id": "6117bedd13ff946e39da9af4",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccac88969f151c6515d42"
+                    },
+                    {
+                        "_id": "6117bedd13ff946e39da9af5",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccac88969f151c6515d43"
+                    },
+                    {
+                        "_id": "6117bedd13ff946e39da9af6",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccac88969f151c6515d44"
+                    },
+                    {
+                        "_id": "6117bedd13ff946e39da9af7",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccac88969f151c6515d45"
+                    },
+                    {
+                        "_id": "6117bedd13ff946e39da9af8",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccac88969f151c6515d46"
+                    },
+                    {
+                        "_id": "6117bedd13ff946e39da9af9",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccac88969f151c6515d47"
+                    },
+                    {
+                        "_id": "6117bedd13ff946e39da9afa",
+                        "kind": "ComponentItemsSelectItems",
+                        "ref": "610ccac88969f151c6515d48"
+                    }
+                ],
+                "createdAt": "2021-08-06T05:38:16.444Z",
+                "updatedAt": "2021-08-14T13:02:21.336Z",
+                "__v": 1,
+                "team": "6110fe2bf743e01e61caefc9",
+                "updated_by": "61177c3713ff946e39da3bb6"
+            }
+        ]
+    },
+    "message": "Get donut chart successfully."
+}

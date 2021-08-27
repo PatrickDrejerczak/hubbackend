@@ -8,7 +8,7 @@ const chartsController = require("../controller/charts.controller");
 router.get("/donut", chartsController.getDonutChart);
 
 // Get charts that are completed and it is a request
-router;
+router.get("/bar", chartsController.getBarChart);
 // Get Tina Chart
 
 module.exports = router;
