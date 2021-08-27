@@ -10,4 +10,7 @@ router.use("/fakedata", fakeDataApi);
 const chartsApi = require("./charts.api");
 router.use("/charts", chartsApi);
 
+const postApi = require("./post.api");
+router.use("/post", postApi);
+
 module.exports = router;

@@ -2,6 +2,7 @@ const moment = require("moment");
 const utilsHelper = require("../helpers/utils.helper");
 const Posts = require("../models/Posts");
 const Users = require("../models/Users");
+
 var mongoose = require("mongoose");
 const chartsController = {};
 
@@ -110,19 +111,24 @@ chartsController.getItemChart = async (req, res, next) => {
 
     let user = await Users.findOne({ _id: id });
     let teamId = user.team;
+
     const receive = await Posts.find({ team: teamId, type: "receive" })
-      .populate("items")
+      .populate({
+        path: "items",
+        populate: "ref",
+      })
       .limit(10);
-    const receive1 = await Posts.findOne({
-      team: teamId,
-      type: "receive",
-    }).populate("items");
+
+    // const receive1 = await Posts.findOne({
+    //   team: teamId,
+    //   type: "receive",
+    // }).populate("items");
 
     const response = utilsHelper.sendResponse(
       res,
       200,
       true,
-      { receive1 },
+      { receive },
       null,
       "Get donut chart successfully."
     );
