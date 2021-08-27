@@ -1,12 +1,13 @@
+const moment = require("moment");
 const utilsHelper = require("../helpers/utils.helper");
 const Posts = require("../models/Posts");
 const Users = require("../models/Users");
-const chartsController = {};
 var mongoose = require("mongoose");
+const chartsController = {};
 
 chartsController.getDonutChart = async (req, res, next) => {
   try {
-    var id = mongoose.Types.ObjectId("6102a7fe43bc5e0728a76722");
+    var id = mongoose.Types.ObjectId("61003d63918c8036b2cfcc7f");
     // var id = mongoose.Types.ObjectId("6110fe14f743e01e61caefbf");
     // let user = await Users.findOne({ _id: id }).populate("team");
 
@@ -34,6 +35,94 @@ chartsController.getDonutChart = async (req, res, next) => {
       200,
       true,
       { completed, pending },
+      null,
+      "Get donut chart successfully."
+    );
+  } catch (error) {
+    next(error);
+  }
+};
+
+chartsController.getBarChart = async (req, res, next) => {
+  try {
+    var id = mongoose.Types.ObjectId("61003d63918c8036b2cfcc7f");
+    let user = await Users.findOne({ _id: id });
+    let teamId = user.team;
+
+    const getWeeklyPosts = async (weekAgo, type) => {
+      let result;
+      if (weekAgo == 1) {
+        result = await Posts.find({
+          team: teamId,
+          type: type,
+          createdAt: {
+            $gte: new Date(new Date().getTime() - 7 * 24 * 60 * 60 * 1000),
+          },
+        })
+          .sort({ createdAt: 1 })
+          .count();
+      } else if (weekAgo > 1) {
+        result = await Posts.find({
+          team: teamId,
+          type: type,
+          createdAt: {
+            $gte: new Date(
+              new Date().getTime() - weekAgo * 7 * 24 * 60 * 60 * 1000
+            ),
+            $lte: new Date(
+              new Date().getTime() - (weekAgo - 1) * 7 * 24 * 60 * 60 * 1000
+            ),
+          },
+        })
+          .sort({ createdAt: 1 })
+          .count();
+      }
+      return result;
+    };
+    let numberofweeks = 4;
+
+    const reversedReceive = [];
+    const reversedSend = [];
+    for (let index = 0; index < numberofweeks; index++) {
+      reversedReceive[index] = await getWeeklyPosts(index + 1, "receive");
+      reversedSend[index] = await getWeeklyPosts(index + 1, "send");
+    }
+    const receive = reversedReceive.reverse();
+    const send = reversedSend.reverse();
+
+    const response = utilsHelper.sendResponse(
+      res,
+      200,
+      true,
+      { receive, send },
+      null,
+      "Get donut chart successfully."
+    );
+  } catch (error) {
+    next(error);
+  }
+};
+
+chartsController.getItemChart = async (req, res, next) => {
+  try {
+    var id = mongoose.Types.ObjectId("61003d63918c8036b2cfcc7f");
+    // let user = await Users.findOne({ _id: id }).populate("team");
+
+    let user = await Users.findOne({ _id: id });
+    let teamId = user.team;
+    const receive = await Posts.find({ team: teamId, type: "receive" })
+      .populate("items")
+      .limit(10);
+    const receive1 = await Posts.findOne({
+      team: teamId,
+      type: "receive",
+    }).populate("items");
+
+    const response = utilsHelper.sendResponse(
+      res,
+      200,
+      true,
+      { receive1 },
       null,
       "Get donut chart successfully."
     );
