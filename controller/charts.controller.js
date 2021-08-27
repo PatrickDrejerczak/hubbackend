@@ -103,4 +103,32 @@ chartsController.getBarChart = async (req, res, next) => {
   }
 };
 
+chartsController.getItemChart = async (req, res, next) => {
+  try {
+    var id = mongoose.Types.ObjectId("61003d63918c8036b2cfcc7f");
+    // let user = await Users.findOne({ _id: id }).populate("team");
+
+    let user = await Users.findOne({ _id: id });
+    let teamId = user.team;
+    const receive = await Posts.find({ team: teamId, type: "receive" })
+      .populate("items")
+      .limit(10);
+    const receive1 = await Posts.findOne({
+      team: teamId,
+      type: "receive",
+    }).populate("items");
+
+    const response = utilsHelper.sendResponse(
+      res,
+      200,
+      true,
+      { receive1 },
+      null,
+      "Get donut chart successfully."
+    );
+  } catch (error) {
+    next(error);
+  }
+};
+
 module.exports = chartsController;
