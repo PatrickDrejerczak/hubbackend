@@ -10,5 +10,7 @@ router.get("/donut", chartsController.getDonutChart);
 router.get("/bar", chartsController.getBarChart);
 // Get individual item chart
 router.get("/item", chartsController.getItemChart);
+// Get today posts
+router.get("/todayPosts", chartsController.getTodayPosts);
 
 module.exports = router;
