@@ -197,19 +197,52 @@ chartsController.getTodayPosts = async (req, res, next) => {
     // });
 
     //--------- this is for day 20-8-2021
-    const todayReceivePost = await Posts.find({
-      createdAt: {
-        $gte: new Date(d.getTime() - 7 * 24 * 60 * 60 * 1000),
-        $lte: new Date(d.getTime() - 6 * 24 * 60 * 60 * 1000),
+    // const todayReceivePost = await Posts.find({
+    //   createdAt: {
+    //     $gte: new Date(d.getTime() - 7 * 24 * 60 * 60 * 1000),
+    //     $lte: new Date(d.getTime() - 6 * 24 * 60 * 60 * 1000),
+    //   },
+    //   type: "receive",
+    // });
+    const todayRequest = await Posts.aggregate([
+      {
+        $match: {
+          createdAt: {
+            $gt: new Date(d.getTime() - 7 * 24 * 60 * 60 * 1000),
+            $lt: new Date(d.getTime() - 6 * 24 * 60 * 60 * 1000),
+          },
+        },
       },
-      type: "receive",
-    });
+      {
+        $group: {
+          _id: "$type",
+          count: { $sum: 1 },
+        },
+      },
+    ]);
+
+    const yesterdayRequest = await Posts.aggregate([
+      {
+        $match: {
+          createdAt: {
+            $gt: new Date(d.getTime() - 8 * 24 * 60 * 60 * 1000),
+            $lt: new Date(d.getTime() - 7 * 24 * 60 * 60 * 1000),
+          },
+        },
+      },
+      {
+        $group: {
+          _id: "$type",
+          count: { $sum: 1 },
+        },
+      },
+    ]);
 
     const response = utilsHelper.sendResponse(
       res,
       200,
       true,
-      { todayReceivePost },
+      { todayRequest, yesterdayRequest },
       null,
       "Get today total posts successfully."
     );
