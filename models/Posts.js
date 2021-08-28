@@ -5,7 +5,7 @@ const postsSchema = Schema({
   items: [
     {
       kind: String,
-      selected: { type: Schema.Types.ObjectId, ref: "selectedItem" },
+      ref: { type: Schema.Types.ObjectId, ref: "selected" },
     },
   ],
 });
