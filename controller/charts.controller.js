@@ -187,6 +187,8 @@ chartsController.getTodayPosts = async (req, res, next) => {
   try {
     var d = new Date();
     d.setHours(0, 0, 0, 0);
+    console.log("no Types", mongoose.Schema.Types);
+    console.log("with types", mongoose.Schema);
 
     //--------- this is for current day
     // const todayReceivePost = await Posts.find({
@@ -197,52 +199,43 @@ chartsController.getTodayPosts = async (req, res, next) => {
     // });
 
     //--------- this is for day 20-8-2021
-    // const todayReceivePost = await Posts.find({
-    //   createdAt: {
-    //     $gte: new Date(d.getTime() - 7 * 24 * 60 * 60 * 1000),
-    //     $lte: new Date(d.getTime() - 6 * 24 * 60 * 60 * 1000),
-    //   },
-    //   type: "receive",
-    // });
-    const todayRequest = await Posts.aggregate([
-      {
-        $match: {
-          createdAt: {
-            $gt: new Date(d.getTime() - 7 * 24 * 60 * 60 * 1000),
-            $lt: new Date(d.getTime() - 6 * 24 * 60 * 60 * 1000),
-          },
-        },
+    const todaySend = await Posts.find({
+      createdAt: {
+        $gte: new Date(d.getTime() - 7 * 24 * 60 * 60 * 1000),
+        $lte: new Date(d.getTime() - 6 * 24 * 60 * 60 * 1000),
       },
-      {
-        $group: {
-          _id: "$type",
-          count: { $sum: 1 },
-        },
-      },
-    ]);
+      type: "send",
+    }).countDocuments();
 
-    const yesterdayRequest = await Posts.aggregate([
-      {
-        $match: {
-          createdAt: {
-            $gt: new Date(d.getTime() - 8 * 24 * 60 * 60 * 1000),
-            $lt: new Date(d.getTime() - 7 * 24 * 60 * 60 * 1000),
-          },
-        },
+    const todayReceive = await Posts.find({
+      createdAt: {
+        $gte: new Date(d.getTime() - 7 * 24 * 60 * 60 * 1000),
+        $lte: new Date(d.getTime() - 6 * 24 * 60 * 60 * 1000),
       },
-      {
-        $group: {
-          _id: "$type",
-          count: { $sum: 1 },
-        },
+      type: "receive",
+    }).countDocuments();
+
+    const yesterdaySend = await Posts.find({
+      createdAt: {
+        $gte: new Date(d.getTime() - 8 * 24 * 60 * 60 * 1000),
+        $lte: new Date(d.getTime() - 7 * 24 * 60 * 60 * 1000),
       },
-    ]);
+      type: "send",
+    }).countDocuments();
+
+    const yesterdayReceive = await Posts.find({
+      createdAt: {
+        $gte: new Date(d.getTime() - 8 * 24 * 60 * 60 * 1000),
+        $lte: new Date(d.getTime() - 7 * 24 * 60 * 60 * 1000),
+      },
+      type: "receive",
+    }).countDocuments();
 
     const response = utilsHelper.sendResponse(
       res,
       200,
       true,
-      { todayRequest, yesterdayRequest },
+      { todaySend, todayReceive, yesterdaySend, yesterdayReceive },
       null,
       "Get today total posts successfully."
     );
