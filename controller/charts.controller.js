@@ -12,8 +12,6 @@ const chartsController = {};
 chartsController.getDonutChart = async (req, res, next) => {
   try {
     var id = mongoose.Types.ObjectId("61003d63918c8036b2cfcc7f");
-    // var id = mongoose.Types.ObjectId("6110fe14f743e01e61caefbf");
-    // let user = await Users.findOne({ _id: id }).populate("team");
 
     let user = await Users.findOne({ _id: id });
     let teamId = user.team;
@@ -23,16 +21,6 @@ chartsController.getDonutChart = async (req, res, next) => {
     const pending = await Posts.find({ team: teamId }).count({
       isFinished: false,
     });
-    // let completedPosts = 0;
-    // let pendingPosts = 0;
-    // posts.map((post) => {
-    //   if (post.isApproved == true) {
-    //     completedPosts += 1;
-    //   } else if (post.isApproved == false) {
-    //     pendingPosts += 1;
-    //   }
-    // });
-    // let data = [completedPosts, pendingPosts];
 
     const response = utilsHelper.sendResponse(
       res,
@@ -110,23 +98,10 @@ chartsController.getBarChart = async (req, res, next) => {
 chartsController.getItemChart = async (req, res, next) => {
   try {
     var id = mongoose.Types.ObjectId("61003d63918c8036b2cfcc7f");
-    // let user = await Users.findOne({ _id: id }).populate("team");
 
     let user = await Users.findOne({ _id: id });
     let teamId = user.team;
 
-    // const receive = await Posts.findOne({ team: teamId, type: "receive" })
-    // .populate({
-    //   path: "items",
-    //   populate: {
-    //     path: "ref",
-    //     populate: {
-    //       path: "item",
-    //       populate: { path: "unit", model: "units" },
-    //     },
-    //   },
-    // })
-    // .limit(10);
     const data = await Posts.aggregate([
       { $match: { team: teamId } },
       { $unwind: "$items" },
@@ -190,7 +165,7 @@ chartsController.getTodayPosts = async (req, res, next) => {
     console.log("no Types", mongoose.Schema.Types);
     console.log("with types", mongoose.Schema);
 
-    //--------- this is for current day
+    //--------- THIS IS FOR CURRENT DAY, CAN'T BE USED AT THE MOMENT DUE TO LACK OF CURRENT DATA
     // const todayReceivePost = await Posts.find({
     //   createdAt: {
     //     $gte: d,
@@ -198,7 +173,7 @@ chartsController.getTodayPosts = async (req, res, next) => {
     //   },
     // });
 
-    //--------- this is for day 20-8-2021
+    //--------- THIS IS FOR 23-8-2021
     const todaySend = await Posts.find({
       createdAt: {
         $gte: new Date(d.getTime() - 7 * 24 * 60 * 60 * 1000),
