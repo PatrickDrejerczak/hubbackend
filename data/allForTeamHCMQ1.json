@@ -1,0 +1,160 @@
+{
+  "todayPosts": {
+    "todaySend": 60,
+    "todayReceive": 1675,
+    "yesterdaySend": 64,
+    "yesterdayReceive": 1149
+  },
+  "pies": [
+    {
+      "_id": "Hành Tỏi Ớt",
+      "items": [
+        {
+          "type": "receive",
+          "total": 5
+        }
+      ]
+    },
+    {
+      "_id": "Khẩu trang",
+      "items": [
+        {
+          "type": "send",
+          "total": 11
+        },
+        {
+          "type": "receive",
+          "total": 25
+        }
+      ]
+    },
+    {
+      "_id": "Bao tay",
+      "items": [
+        {
+          "type": "receive",
+          "total": 6
+        },
+        {
+          "type": "send",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "_id": "Tiền mặt",
+      "items": [
+        {
+          "type": "receive",
+          "total": 6
+        },
+        {
+          "type": "send",
+          "total": 4
+        }
+      ]
+    },
+    {
+      "_id": "Gạo",
+      "items": [
+        {
+          "type": "send",
+          "total": 36
+        },
+        {
+          "type": "receive",
+          "total": 49
+        }
+      ]
+    },
+    {
+      "_id": "Trứng",
+      "items": [
+        {
+          "type": "send",
+          "total": 32
+        },
+        {
+          "type": "receive",
+          "total": 51
+        }
+      ]
+    },
+    {
+      "_id": "Mì Gói",
+      "items": [
+        {
+          "type": "send",
+          "total": 37
+        },
+        {
+          "type": "receive",
+          "total": 44
+        }
+      ]
+    },
+    {
+      "_id": "Rau củ quả",
+      "items": [
+        {
+          "type": "receive",
+          "total": 56
+        },
+        {
+          "type": "send",
+          "total": 27
+        }
+      ]
+    },
+    {
+      "_id": "Áo Quần",
+      "items": [
+        {
+          "type": "receive",
+          "total": 1
+        },
+        {
+          "type": "send",
+          "total": 9
+        }
+      ]
+    },
+    {
+      "_id": "Đồ bảo hộ",
+      "items": [
+        {
+          "type": "send",
+          "total": 2
+        },
+        {
+          "type": "receive",
+          "total": 6
+        }
+      ]
+    },
+    {
+      "_id": "Sữa",
+      "items": [
+        {
+          "type": "send",
+          "total": 23
+        },
+        {
+          "type": "receive",
+          "total": 47
+        }
+      ]
+    }
+  ],
+  "mostWanted": {
+    "_id": "receive",
+    "name": "Gạo",
+    "biggest": 1549,
+    "percent": 0.26
+  },
+  "barChart": {
+    "receive": [382, 140, 623, 0],
+    "send": [35, 7, 1, 0],
+    "finish": [374, 115, 618, 0]
+  }
+}
